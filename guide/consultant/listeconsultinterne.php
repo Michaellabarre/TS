@@ -133,6 +133,15 @@
                 /*border: none;*/                
                 /*border-style: none;*/
             }
+            tr.test:hover {background-color: #19a3ff;}
+            /*tr.test:nth-child(odd) {background-color: #bed4f7;}*/
+            /*tr.test:nth(even) {background-color: #ffffff;}*/
+
+            /* Cells in even rows (2,4,6...) are one color */        
+            tr.test:nth-child(even) td { background: #F1F1F1; } 
+
+            /* Cells in odd rows (1,3,5...) are another (excludes header cells)  */        
+            tr.test:nth-child(odd) td { background: #FEFEFE; }
         </style>
 	<!-- /head -->
     </head>
@@ -330,16 +339,16 @@
                                             $colonne = mysqli_num_fields($tesita); //col        
                                             $ligne = mysqli_num_rows($tesita); //rows  
                                             while($row = mysqli_fetch_array($tesita, MYSQLI_BOTH)){
-                                            echo '<tr>';
+                                            echo '<tr class="test">';
                                                 for($j=0; $j < $colonne ; $j++){
                                                     switch ($j){
                                                         case 0: echo '<td class="code">'.$row[$j].'</td>';
                                                             break;
-                                                        case 1: echo '<td class="prenom">'.$row[$j].'</td>';
+                                                        case 1: echo '<td class="prenom"><center>'.$row[$j].'</center></td>';
                                                             break;
-                                                        case 2: echo '<td class="nom">'.$row[$j].'</td>';
+                                                        case 2: echo '<td class="nom"><center>'.$row[$j].'</center></td>';
                                                             break;
-                                                        case 3: echo '<td class="titre">'.$row[$j].'</td>';
+                                                        case 3: echo '<td class="titre"><center>'.$row[$j].'</center></td>';
                                                             break;
                                                     }    
                                                 }

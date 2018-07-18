@@ -134,6 +134,15 @@
                 /*border: none;*/                
                 /*border-style: none;*/
             }
+            tr.test:hover {background-color: #19a3ff;}
+            /*tr.test:nth-child(odd) {background-color: #bed4f7;}*/
+            /*tr.test:nth(even) {background-color: #ffffff;}*/
+
+            /* Cells in even rows (2,4,6...) are one color */        
+            tr.test:nth-child(even) td { background: #F1F1F1; } 
+
+            /* Cells in odd rows (1,3,5...) are another (excludes header cells)  */        
+            tr.test:nth-child(odd) td { background: #FEFEFE; } 
         </style>
 	<!-- /head -->
     </head>
@@ -310,10 +319,14 @@
                         <br/>&emsp; Le code Client doit contenir 3 à 6 caractères et ne doit être composé que des lettres uniquement.
                     </div>-->       
                     <center>
-                    <!-- LISTER LES CLIENTS DANS LA BASE VIA REQUETES ET L'AFFICHER SOUS FORME DE TABLEAU HTML
+                    <!-- LISTER LES CLIENTS DANS LA BASE VIA REQUETES ET L'AFFICHER SOUS FORME DE TABLEAU HTML-->
                         <?php                        
-                            $liste = 'select RefEmploye as Code, Prenom as Prénom, NomFamille as Nom, Titre FROM employes where actif = 0 '
-                                    . 'and RefEmploye not in ("Z05", "Z06", "Z07", "ZA1", "ZA2", "ZA3", "ZZZ") '
+                            $liste = 'select RefEmploye as Code, Prenom as Prénom, NomFamille as Nom, Titre FROM employes 
+                            where Profil=\'consultant\'
+                            or Profil=\'consultante\' '
+                                    //. 'and RefEmploye not in ("Z05", "Z06", "Z07", "ZA1", "ZA2", "ZA3", "ZZZ") '
+                                    . 'or RefEmploye like "%E0%"'
+                                    . 'and actif = 0 '
                                     . 'ORDER BY RefEmploye ASC;';
 //                            affisazy($liste);
                             $tesita = mysqli_query($connect, $liste) or exit(mysqli_error($connect));        
@@ -321,6 +334,10 @@
                             $ligne = mysqli_num_rows($tesita); //rows
                             
                             ?>
+
+                            <!-- <?php
+                                //$liste = 'SELECT RefEmploye as Code, Prenom as Prénom, NomFamille as Nom, Titre FROM employes;'
+                            ?> -->
                         
                         <div>
                             <table cellspacing="0" cellpadding="0" border="0" id="echeance" width="820px"> 
@@ -331,7 +348,8 @@
                                                 <td class="code"><b><center>Code </center></b></td>
                                                 <td class="prenom"><b><center>Prénom</center></b></td>                                                                                   
                                                 <td class="nom"><b><center>Nom</center></b></td>
-                                                <td class="titre"><b><center>Département / Fonction</center></b></td>                                                
+                                                <td class="titre"><b><center>Département / Fonction</center></b></td>
+                                                <!-- <td class="titre"><b><center>Profil</center></b></td> -->                                                
                                             </tr>
                                         </table>
                                     </td>
@@ -342,17 +360,18 @@
                                             <table cellspacing="0" cellpadding="0" border="0" id="echeance" width="800px">
                                                 <?php
                                                 while($row = mysqli_fetch_array($tesita, MYSQLI_BOTH)){
-                                            echo '<tr>';
+                                            echo '<tr class="test">';
                                                 for($j=0; $j < $colonne ; $j++){
                                                     switch ($j){
-                                                        case 0: echo '<td class="code">'.$row[$j].'</td>';
+                                                        case 0: echo '<td class="code"><center>'.$row[$j].'</center></td>';
                                                             break;
-                                                        case 1: echo '<td class="prenom">'.$row[$j].'</td>';
+                                                        case 1: echo '<td class="prenom"><center>'.$row[$j].'</center></td>';
                                                             break;
-                                                        case 2: echo '<td class="nom">'.$row[$j].'</td>';
+                                                        case 2: echo '<td class="nom"><center>'.$row[$j].'</center></td>';
                                                             break;
-                                                        case 3: echo '<td class="titre">'.$row[$j].'</td>';
+                                                        case 3: echo '<td class="titre"><center>'.$row[$j].'</center></td>';
                                                             break;
+                                                        //case 4: echo '<td class="profil">'.$row[$j].'</td>';
                                                     }
                                                         
                                                 }

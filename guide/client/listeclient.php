@@ -27,6 +27,9 @@
         <link type="text/css" rel="stylesheet" href="../helpers/media/elements.css?v=1783" />
         <link type="text/css" rel="stylesheet" href="../../includes/db_connect.php"/>
 
+
+
+
         <!-- CDN Css -->
 
         <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous"> -->
@@ -518,6 +521,14 @@
                             $ligne = mysqli_num_rows($tesita); //rows  
                             
                         ?>  
+                        <!-- Champ de recherche 
+                        <form method="Post" action="#">-->
+                           <!-- <input type="search" name="Rechercher" value="" placeholder="Rechercher" style="vertical-align: 10px; float: " >
+                           <?php 
+                               // $sql = 'SELECT * from client 
+                               // WHERE '.$_POST['Rechercher'].' = RefClient'?> -->
+                        <!-- </form> -->
+
                     <div>
                         <!--<table cellspacing="0" cellpadding="0" border="0" max-width="1120px" id="echeance">--> 
 <!--                        <table  > 
@@ -528,6 +539,9 @@
                                 <td>
                                     <!--<table cellspacing="0" cellpadding="0" border="1" width="1100px"  id="echeance">-->                                    
                                     <!-- Affichage des données TS sous forme de tableau -->
+                                    
+                                        
+                                    
 									<table cellspacing="0" cellpadding="0" border="1" width="1300px" style=" border-color: blue" id="echeance">
                                         <tr>
                                             <td style="width:145px"><b><center>Société</center></b></td>
@@ -540,6 +554,7 @@
                                             <!--<td class="site"><center><b>Site Web</b></center></td>-->
                                         </tr>
                                     </table>
+                                   
                                 </td>
                             </tr>
                             <tr>
@@ -597,12 +612,14 @@
           $(".menu a[href='" + filename + "']").addClass("selected");
         });
     </script>-->
-	         
+	       
         <?php else : ?>
             <p>
                 <span>Vous n’avez pas les autorisations n&eacute;cessaires pour acc&eacute;der &agrave; cette page.</span> Please <a href="../../index.php">login</a>.
             </p>
-        <?php endif; ?>                     	    
+        <?php endif; ?>
+                             	    
     </body>
+
 </html>
 

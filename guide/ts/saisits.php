@@ -778,7 +778,7 @@ $(function() {
                             }
                         ?>
                         <select name="periode" id="periode" style="width:215px">
-                            <option value="" disabled="" selected style="display:none">Sélectionnez la période</option>
+                            <option value="" disabled="" selected style="display:none">S&eacute;lectionnez la période</option>
                             <!--<option value="" disabled="" selected style="display:none">Sélectionnez la période</option>-->
                             <?php                                                                                            
 //                                $reqListPeriod = mysqli_query($connect,'select PERIODE from periode where DateEntree between "2015-01-01" and "2015-12-31";');
@@ -791,7 +791,7 @@ $(function() {
                         </select>
 						
 					
-                        <input type="submit" name="go" id="go" value="Selectionner" >
+                        <input type="submit" name="go" id="go" value="S&eacute;lectionner" >
 						
 						
                     </form>
@@ -817,7 +817,7 @@ $(function() {
                         <?php
                         if (isset($_POST['go'])){
                             if($_POST['periode'] == ''){						
-                                echo '<font color="red"><br/>Veuillez s&eacute;lectionner une période.</font>';																
+                                echo '<font color="red"><br/>Veuillez s&eacute;lectionner une p&eacute;riode.</font>';																
                             }
                             else{                                
                                 $periode = $_POST['periode'];                                                                                                                            
