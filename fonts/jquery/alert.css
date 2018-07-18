@@ -1,0 +1,120 @@
+/**
+ * created by Konjoh Elvis
+ * email selabielvis@gmail.com
+ *
+ */
+
+/* STYLING THE BOX */
+
+/* SMALL RESET */
+.alert_box *{
+    margin: 0;
+    padding: 0;
+}
+
+/* BOX STYLE */
+.alert_box{
+    color:#333;
+    font-size:0.85em;
+    font-family:verdana;
+    background:ghostwhite;
+    border:1px solid #fff;
+    width:300px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.5);
+    
+}
+
+/* BOX TITLE STYLE */
+.alert_box h1{
+    text-transform:uppercase;
+    padding:10px;
+    border-bottom: 1px solid #ddd;
+    font-size:1em;
+    position:relative; 
+}
+
+/* BOX TITLE CLOSE ICON */
+.alert_box h1 span{
+    cursor:pointer;
+    top:2px;
+    right:10px;
+    position:absolute;
+}
+
+/* BOX TEXT STYLE */
+.alert_box p{
+    border-top:1px solid #fefefe;
+    padding:15px;
+}
+
+/* BOX BUTTON STYLE */
+.alert_box .button{
+    width:100px;
+    margin-top:20px;
+    margin:5px auto 15px auto;
+    box-shadow: 0px 1px 0px 0px #54A3F7 inset;
+	background: linear-gradient(to bottom, #5689DB 5%, #4D7BD6 100%) repeat scroll 0% 0% #5689DB;
+	border-radius: 3px;
+	border: 1px solid #2D54AF;
+	display:block;
+	cursor: pointer;
+	color: #FFF;
+	font-family: Verdana;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 7px 28px;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px #154682;
+    
+}
+
+.alert_box button:hover{
+
+}
+
+
+/* CSS TO APPLY WHEN BOX IS OPEN AND USER CLICK OUTSIDE IT */
+/* ANIMATION */
+@-webkit-keyframes vibrate{
+    from {
+        -webkit-transform: rotate(-20deg);
+    }
+    to{
+        -webkit-transform: rotate(20deg);
+    }
+}
+@-moz-keyframes vibrate{
+    from {
+        -moz-transform: rotate(-20deg);
+    }
+    to{
+        -moz-transform: rotate(20deg);
+    }
+}
+@-o-keyframes vibrate{
+    from {
+        -o-transform: rotate(-20deg);
+    }
+    to{
+        -o-transform: rotate(20deg);
+    }
+}
+@keyframes vibrate{
+    from {
+        transform: rotate(-20deg);
+    }
+    to{
+        transform: rotate(20deg);
+    }
+}
+/* BOX IMPORTANT STYLE */
+.alert_box_important{
+    -webkit-animation: vibrate 10000ms;
+    -moz-animation: vibrate 10000ms;
+    -o-animation: vibrate 10000ms;
+    animation: vibrate 10000ms;
+}

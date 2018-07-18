@@ -1,0 +1,58 @@
+#home {
+  width: 50em;
+  margin: auto;
+}
+
+#home .fieldName {
+  font-weight: bold;
+}
+
+#home .authors {
+  float: left;
+  margin: 2ex 0;
+}
+
+#home .manager {
+  float: right;
+  margin: 2ex 0;
+}
+
+#home .copyright {
+  float: left;
+  margin: 2ex 0;
+}
+
+#home .module {
+  clear: both;
+  border-top: solid 2px #003399;
+  /*border-bottom: solid 2px #003399;*/
+  height: 290px;
+  padding: 2ex 0;
+}
+
+#home .linkBlock {
+  float: left;
+  height: 100px;
+  line-height: 100px;
+  margin-left: 2em;
+  padding-left: 25px;
+  background-image: url("../images/closed.gif");
+  background-repeat: no-repeat;
+  background-position: center left;
+}
+
+#home .linkBlock a {
+  color: #003399;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#home .module .illustration {
+  float: right;
+}
+
+#home .logoBlock {
+  text-align: center;
+  width: 100%;
+  margin: 2ex 0;
+}

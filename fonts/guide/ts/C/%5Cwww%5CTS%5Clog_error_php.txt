@@ -1,0 +1,591 @@
+[24-Feb-2017 07:13:49 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 622
+[24-Feb-2017 07:13:49 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 622
+[24-Feb-2017 07:13:49 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1572
+[24-Feb-2017 07:13:49 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1578
+[24-Feb-2017 07:13:49 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1753
+[24-Feb-2017 07:13:49 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1754
+[24-Feb-2017 07:13:49 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1775
+[24-Feb-2017 07:13:49 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1776
+[24-Feb-2017 07:17:47 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1572
+[24-Feb-2017 07:17:47 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1578
+[24-Feb-2017 07:17:47 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1753
+[24-Feb-2017 07:17:47 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1754
+[24-Feb-2017 07:17:47 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1775
+[24-Feb-2017 07:17:47 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1776
+[24-Feb-2017 07:19:20 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1572
+[24-Feb-2017 07:19:20 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1578
+[24-Feb-2017 07:19:20 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1753
+[24-Feb-2017 07:19:20 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1754
+[24-Feb-2017 07:19:20 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1775
+[24-Feb-2017 07:19:20 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1776
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 850
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 850
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 850
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 850
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 850
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 850
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 850
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 850
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 850
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 850
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 850
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 850
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 850
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 850
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 850
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 850
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 850
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 850
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 850
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 850
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:19:26 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:07 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1572
+[24-Feb-2017 07:20:07 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1578
+[24-Feb-2017 07:20:07 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1753
+[24-Feb-2017 07:20:07 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1754
+[24-Feb-2017 07:20:07 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1775
+[24-Feb-2017 07:20:07 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1776
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:20:12 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 931
+[24-Feb-2017 07:23:26 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1572
+[24-Feb-2017 07:23:26 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1578
+[24-Feb-2017 07:23:26 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1753
+[24-Feb-2017 07:23:26 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1754
+[24-Feb-2017 07:23:26 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1775
+[24-Feb-2017 07:23:26 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1776
+[24-Feb-2017 07:33:54 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1572
+[24-Feb-2017 07:33:54 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1578
+[24-Feb-2017 07:33:54 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1753
+[24-Feb-2017 07:33:54 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1754
+[24-Feb-2017 07:33:54 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1775
+[24-Feb-2017 07:33:54 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1776
+[24-Feb-2017 07:34:04 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 863
+[24-Feb-2017 07:34:04 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 863
+[24-Feb-2017 07:34:04 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 863
+[24-Feb-2017 07:34:04 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 863
+[24-Feb-2017 07:34:04 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 863
+[24-Feb-2017 07:34:04 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 863
+[24-Feb-2017 07:34:04 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 863
+[24-Feb-2017 07:34:04 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 863
+[24-Feb-2017 07:34:04 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 863
+[24-Feb-2017 07:34:04 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 863
+[24-Feb-2017 07:34:04 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 863
+[24-Feb-2017 07:34:04 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 863
+[24-Feb-2017 07:34:04 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 863
+[24-Feb-2017 07:34:04 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 863
+[24-Feb-2017 07:34:04 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 863
+[24-Feb-2017 07:34:04 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 863
+[24-Feb-2017 07:34:04 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 863
+[24-Feb-2017 07:34:04 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 863
+[24-Feb-2017 07:34:04 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 863
+[24-Feb-2017 07:34:04 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 863
+[24-Feb-2017 07:34:21 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1572
+[24-Feb-2017 07:34:21 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1578
+[24-Feb-2017 07:34:21 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1753
+[24-Feb-2017 07:34:21 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1754
+[24-Feb-2017 07:34:21 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1775
+[24-Feb-2017 07:34:21 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1776
+[24-Feb-2017 07:44:01 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1572
+[24-Feb-2017 07:44:01 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1578
+[24-Feb-2017 07:44:01 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1753
+[24-Feb-2017 07:44:01 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1754
+[24-Feb-2017 07:44:01 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1775
+[24-Feb-2017 07:44:01 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1776
+[24-Feb-2017 07:49:40 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1572
+[24-Feb-2017 07:49:40 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1578
+[24-Feb-2017 07:49:40 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1753
+[24-Feb-2017 07:49:40 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1754
+[24-Feb-2017 07:49:40 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1775
+[24-Feb-2017 07:49:40 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1776
+[24-Feb-2017 07:53:23 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1572
+[24-Feb-2017 07:53:23 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1578
+[24-Feb-2017 07:53:23 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1753
+[24-Feb-2017 07:53:23 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1754
+[24-Feb-2017 07:53:23 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1775
+[24-Feb-2017 07:53:23 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1776
+[24-Feb-2017 07:55:15 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1572
+[24-Feb-2017 07:55:15 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1578
+[24-Feb-2017 07:55:15 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1753
+[24-Feb-2017 07:55:15 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1754
+[24-Feb-2017 07:55:15 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1775
+[24-Feb-2017 07:55:15 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1776
+[24-Feb-2017 07:56:33 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1572
+[24-Feb-2017 07:56:33 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1578
+[24-Feb-2017 07:56:33 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1753
+[24-Feb-2017 07:56:33 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1754
+[24-Feb-2017 07:56:33 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1775
+[24-Feb-2017 07:56:33 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1776
+[24-Feb-2017 08:00:47 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1572
+[24-Feb-2017 08:00:47 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1578
+[24-Feb-2017 08:00:47 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1753
+[24-Feb-2017 08:00:47 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1754
+[24-Feb-2017 08:00:47 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1775
+[24-Feb-2017 08:00:47 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1776
+[24-Feb-2017 08:03:51 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1572
+[24-Feb-2017 08:03:51 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1578
+[24-Feb-2017 08:03:51 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1753
+[24-Feb-2017 08:03:51 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1754
+[24-Feb-2017 08:03:51 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1775
+[24-Feb-2017 08:03:51 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1776
+[24-Feb-2017 08:07:51 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1572
+[24-Feb-2017 08:07:51 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1578
+[24-Feb-2017 08:07:51 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1753
+[24-Feb-2017 08:07:51 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1754
+[24-Feb-2017 08:07:51 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1775
+[24-Feb-2017 08:07:51 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1776
+[24-Feb-2017 08:08:50 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1572
+[24-Feb-2017 08:08:50 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1578
+[24-Feb-2017 08:08:50 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1753
+[24-Feb-2017 08:08:50 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1754
+[24-Feb-2017 08:08:50 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1775
+[24-Feb-2017 08:08:50 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1776
+[24-Feb-2017 08:09:36 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1572
+[24-Feb-2017 08:09:36 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1578
+[24-Feb-2017 08:09:36 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1753
+[24-Feb-2017 08:09:36 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1754
+[24-Feb-2017 08:09:36 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1775
+[24-Feb-2017 08:09:36 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1776
+[24-Feb-2017 08:12:25 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1572
+[24-Feb-2017 08:12:25 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1578
+[24-Feb-2017 08:12:25 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1753
+[24-Feb-2017 08:12:25 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1754
+[24-Feb-2017 08:12:25 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1775
+[24-Feb-2017 08:12:25 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1776
+[24-Feb-2017 08:21:30 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1572
+[24-Feb-2017 08:21:30 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1578
+[24-Feb-2017 08:21:30 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1753
+[24-Feb-2017 08:21:30 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1754
+[24-Feb-2017 08:21:30 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1775
+[24-Feb-2017 08:21:30 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1776
+[24-Feb-2017 08:22:05 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1572
+[24-Feb-2017 08:22:05 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1578
+[24-Feb-2017 08:22:05 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1753
+[24-Feb-2017 08:22:05 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1754
+[24-Feb-2017 08:22:05 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1775
+[24-Feb-2017 08:22:05 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1776
+[24-Feb-2017 08:53:51 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1572
+[24-Feb-2017 08:53:51 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1578
+[24-Feb-2017 08:53:51 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1753
+[24-Feb-2017 08:53:51 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1754
+[24-Feb-2017 08:53:51 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1775
+[24-Feb-2017 08:53:51 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1776
+[24-Feb-2017 09:20:07 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1575
+[24-Feb-2017 09:20:07 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1581
+[24-Feb-2017 09:20:07 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1756
+[24-Feb-2017 09:20:07 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1757
+[24-Feb-2017 09:20:07 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1778
+[24-Feb-2017 09:20:07 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1779
+[24-Feb-2017 09:20:37 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1575
+[24-Feb-2017 09:20:37 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1581
+[24-Feb-2017 09:20:37 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1756
+[24-Feb-2017 09:20:37 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1757
+[24-Feb-2017 09:20:37 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1778
+[24-Feb-2017 09:20:37 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1779
+[24-Feb-2017 09:23:35 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1575
+[24-Feb-2017 09:23:35 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1581
+[24-Feb-2017 09:23:35 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1756
+[24-Feb-2017 09:23:35 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1757
+[24-Feb-2017 09:23:35 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1778
+[24-Feb-2017 09:23:35 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1779
+[24-Feb-2017 09:34:06 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1575
+[24-Feb-2017 09:34:06 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1581
+[24-Feb-2017 09:34:06 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1756
+[24-Feb-2017 09:34:06 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1757
+[24-Feb-2017 09:34:06 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1778
+[24-Feb-2017 09:34:06 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1779
+[24-Feb-2017 09:37:03 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1575
+[24-Feb-2017 09:37:03 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1581
+[24-Feb-2017 09:37:03 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1756
+[24-Feb-2017 09:37:03 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1757
+[24-Feb-2017 09:37:03 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1778
+[24-Feb-2017 09:37:03 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1779
+[24-Feb-2017 09:44:21 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1575
+[24-Feb-2017 09:44:21 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1581
+[24-Feb-2017 09:44:21 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1757
+[24-Feb-2017 09:44:21 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1758
+[24-Feb-2017 09:44:21 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1779
+[24-Feb-2017 09:44:21 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1780
+[24-Feb-2017 09:50:23 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1575
+[24-Feb-2017 09:50:23 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1581
+[24-Feb-2017 09:50:23 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1757
+[24-Feb-2017 09:50:23 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1758
+[24-Feb-2017 09:50:23 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1779
+[24-Feb-2017 09:50:23 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1780
+[24-Feb-2017 09:51:23 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1575
+[24-Feb-2017 09:51:23 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1581
+[24-Feb-2017 09:51:23 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1758
+[24-Feb-2017 09:51:23 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1759
+[24-Feb-2017 09:51:23 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1780
+[24-Feb-2017 09:51:23 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1781
+[24-Feb-2017 09:53:28 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1575
+[24-Feb-2017 09:53:28 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1581
+[24-Feb-2017 09:53:28 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1757
+[24-Feb-2017 09:53:28 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1758
+[24-Feb-2017 09:53:28 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1779
+[24-Feb-2017 09:53:28 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1780
+[24-Feb-2017 09:56:53 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1575
+[24-Feb-2017 09:56:53 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1581
+[24-Feb-2017 09:56:53 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1757
+[24-Feb-2017 09:56:53 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1758
+[24-Feb-2017 09:56:53 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1779
+[24-Feb-2017 09:56:53 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1780
+[24-Feb-2017 09:57:54 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1575
+[24-Feb-2017 09:57:54 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1581
+[24-Feb-2017 09:57:54 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1757
+[24-Feb-2017 09:57:54 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1758
+[24-Feb-2017 09:57:54 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1779
+[24-Feb-2017 09:57:54 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1780
+[24-Feb-2017 10:00:08 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1575
+[24-Feb-2017 10:00:08 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1581
+[24-Feb-2017 10:00:08 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1757
+[24-Feb-2017 10:00:08 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1758
+[24-Feb-2017 10:00:08 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1779
+[24-Feb-2017 10:00:08 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1780
+[24-Feb-2017 10:03:06 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1575
+[24-Feb-2017 10:03:06 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1581
+[24-Feb-2017 10:03:06 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1757
+[24-Feb-2017 10:03:06 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1758
+[24-Feb-2017 10:03:06 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1779
+[24-Feb-2017 10:03:06 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1780
+[24-Feb-2017 10:04:24 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1575
+[24-Feb-2017 10:04:24 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1581
+[24-Feb-2017 10:04:24 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1757
+[24-Feb-2017 10:04:24 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1758
+[24-Feb-2017 10:04:24 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1779
+[24-Feb-2017 10:04:24 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1780
+[24-Feb-2017 10:06:35 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1575
+[24-Feb-2017 10:06:35 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1581
+[24-Feb-2017 10:06:35 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1757
+[24-Feb-2017 10:06:35 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1758
+[24-Feb-2017 10:06:35 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1779
+[24-Feb-2017 10:06:35 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1780
+[24-Feb-2017 10:07:25 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1575
+[24-Feb-2017 10:07:25 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1581
+[24-Feb-2017 10:07:25 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1757
+[24-Feb-2017 10:07:25 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1758
+[24-Feb-2017 10:07:25 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1779
+[24-Feb-2017 10:07:25 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1780
+[24-Feb-2017 10:08:00 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1575
+[24-Feb-2017 10:08:00 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1581
+[24-Feb-2017 10:08:00 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1757
+[24-Feb-2017 10:08:00 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1758
+[24-Feb-2017 10:08:00 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1779
+[24-Feb-2017 10:08:00 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1780
+[24-Feb-2017 10:08:40 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1575
+[24-Feb-2017 10:08:40 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1581
+[24-Feb-2017 10:08:40 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1757
+[24-Feb-2017 10:08:40 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1758
+[24-Feb-2017 10:08:40 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1779
+[24-Feb-2017 10:08:40 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1780
+[24-Feb-2017 10:08:52 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1575
+[24-Feb-2017 10:08:52 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1581
+[24-Feb-2017 10:08:52 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1757
+[24-Feb-2017 10:08:52 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1758
+[24-Feb-2017 10:08:52 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1779
+[24-Feb-2017 10:08:52 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1780
+[24-Feb-2017 10:09:06 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1575
+[24-Feb-2017 10:09:06 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1581
+[24-Feb-2017 10:09:06 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1757
+[24-Feb-2017 10:09:06 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1758
+[24-Feb-2017 10:09:06 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1779
+[24-Feb-2017 10:09:06 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1780
+[24-Feb-2017 10:18:09 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1575
+[24-Feb-2017 10:18:09 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1581
+[24-Feb-2017 10:18:09 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1758
+[24-Feb-2017 10:18:09 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1759
+[24-Feb-2017 10:18:09 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1780
+[24-Feb-2017 10:18:09 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1781
+[24-Feb-2017 10:29:36 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1575
+[24-Feb-2017 10:29:36 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1581
+[24-Feb-2017 10:29:36 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1758
+[24-Feb-2017 10:29:36 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1759
+[24-Feb-2017 10:29:36 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1780
+[24-Feb-2017 10:29:36 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1781
+[24-Feb-2017 10:55:11 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1575
+[24-Feb-2017 10:55:11 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1581
+[24-Feb-2017 10:55:11 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1758
+[24-Feb-2017 10:55:11 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1759
+[24-Feb-2017 10:55:11 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1780
+[24-Feb-2017 10:55:11 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1781
+[24-Feb-2017 11:06:45 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1575
+[24-Feb-2017 11:06:45 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1581
+[24-Feb-2017 11:06:45 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1758
+[24-Feb-2017 11:06:45 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1759
+[24-Feb-2017 11:06:45 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1780
+[24-Feb-2017 11:06:45 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1781
+[24-Feb-2017 11:24:38 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1575
+[24-Feb-2017 11:24:38 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1581
+[24-Feb-2017 11:24:38 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1758
+[24-Feb-2017 11:24:38 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1759
+[24-Feb-2017 11:24:38 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1780
+[24-Feb-2017 11:24:38 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1781
+[24-Feb-2017 11:25:23 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1575
+[24-Feb-2017 11:25:23 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1581
+[24-Feb-2017 11:25:23 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1758
+[24-Feb-2017 11:25:23 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1759
+[24-Feb-2017 11:25:23 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1780
+[24-Feb-2017 11:25:23 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1781
+[24-Feb-2017 11:27:34 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1575
+[24-Feb-2017 11:27:34 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1581
+[24-Feb-2017 11:27:34 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1758
+[24-Feb-2017 11:27:34 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1759
+[24-Feb-2017 11:27:34 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1780
+[24-Feb-2017 11:27:34 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1781
+[24-Feb-2017 11:33:45 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1575
+[24-Feb-2017 11:33:45 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1581
+[24-Feb-2017 11:33:45 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1758
+[24-Feb-2017 11:33:45 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1759
+[24-Feb-2017 11:33:45 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1780
+[24-Feb-2017 11:33:45 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1781
+[24-Feb-2017 11:34:31 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1575
+[24-Feb-2017 11:34:31 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1581
+[24-Feb-2017 11:34:31 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1758
+[24-Feb-2017 11:34:31 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1759
+[24-Feb-2017 11:34:31 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1780
+[24-Feb-2017 11:34:31 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1781
+[24-Feb-2017 12:35:35 Europe/Berlin] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 332
+[24-Feb-2017 12:35:35 Europe/Berlin] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 332
+[24-Feb-2017 12:35:35 Europe/Berlin] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 517
+[24-Feb-2017 12:35:35 Europe/Berlin] PHP Notice:  Undefined variable: consu in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 519
+[24-Feb-2017 11:35:59 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1575
+[24-Feb-2017 11:35:59 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1581
+[24-Feb-2017 11:35:59 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1758
+[24-Feb-2017 11:35:59 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1759
+[24-Feb-2017 11:35:59 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1780
+[24-Feb-2017 11:35:59 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1781
+[24-Feb-2017 12:36:41 Europe/Berlin] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 332
+[24-Feb-2017 12:36:41 Europe/Berlin] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 332
+[24-Feb-2017 12:36:41 Europe/Berlin] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 517
+[24-Feb-2017 12:36:41 Europe/Berlin] PHP Notice:  Undefined variable: consu in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 519
+[24-Feb-2017 11:37:41 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1575
+[24-Feb-2017 11:37:41 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1581
+[24-Feb-2017 11:37:41 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1758
+[24-Feb-2017 11:37:41 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1759
+[24-Feb-2017 11:37:41 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1780
+[24-Feb-2017 11:37:41 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1781
+[24-Feb-2017 12:38:18 Europe/Berlin] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 332
+[24-Feb-2017 12:38:18 Europe/Berlin] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 332
+[24-Feb-2017 12:38:18 Europe/Berlin] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 517
+[24-Feb-2017 12:38:18 Europe/Berlin] PHP Notice:  Undefined variable: consu in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 519
+[24-Feb-2017 12:40:21 Europe/Berlin] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 517
+[24-Feb-2017 12:40:21 Europe/Berlin] PHP Notice:  Undefined variable: consu in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 519
+[24-Feb-2017 12:40:28 Europe/Berlin] PHP Notice:  Undefined offset: -1 in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 455
+[24-Feb-2017 12:40:28 Europe/Berlin] PHP Notice:  Undefined variable: depTotal in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 501
+[24-Feb-2017 12:40:46 Europe/Berlin] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 517
+[24-Feb-2017 12:40:46 Europe/Berlin] PHP Notice:  Undefined variable: consu in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 519
+[24-Feb-2017 12:40:49 Europe/Berlin] PHP Notice:  Undefined variable: depTotal in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 503
+[24-Feb-2017 13:05:12 Europe/Berlin] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 517
+[24-Feb-2017 13:05:12 Europe/Berlin] PHP Notice:  Undefined variable: consu in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 519
+[24-Feb-2017 13:05:18 Europe/Berlin] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 517
+[24-Feb-2017 13:05:18 Europe/Berlin] PHP Notice:  Undefined variable: consu in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 519
+[24-Feb-2017 13:05:21 Europe/Berlin] PHP Notice:  Undefined variable: depTotal in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 503
+[24-Feb-2017 12:05:33 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1575
+[24-Feb-2017 12:05:33 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1581
+[24-Feb-2017 12:05:33 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1758
+[24-Feb-2017 12:05:33 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1759
+[24-Feb-2017 12:05:33 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1780
+[24-Feb-2017 12:05:33 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1781
+[24-Feb-2017 13:05:36 Europe/Berlin] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 517
+[24-Feb-2017 13:05:36 Europe/Berlin] PHP Notice:  Undefined variable: consu in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 519
+[24-Feb-2017 13:05:41 Europe/Berlin] PHP Notice:  Undefined offset: -1 in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 455
+[24-Feb-2017 13:05:41 Europe/Berlin] PHP Notice:  Undefined variable: depTotal in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 501
+[24-Feb-2017 13:05:43 Europe/Berlin] PHP Notice:  Undefined offset: -1 in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 455
+[24-Feb-2017 13:05:43 Europe/Berlin] PHP Notice:  Undefined variable: depTotal in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 501
+[24-Feb-2017 13:06:03 Europe/Berlin] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 517
+[24-Feb-2017 13:06:03 Europe/Berlin] PHP Notice:  Undefined variable: consu in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 519
+[24-Feb-2017 13:06:42 Europe/Berlin] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 517
+[24-Feb-2017 13:06:42 Europe/Berlin] PHP Notice:  Undefined variable: consu in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 519
+[24-Feb-2017 12:33:58 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1575
+[24-Feb-2017 12:33:58 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1581
+[24-Feb-2017 12:33:58 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1758
+[24-Feb-2017 12:33:58 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1759
+[24-Feb-2017 12:33:58 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1780
+[24-Feb-2017 12:33:58 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1781
+[24-Feb-2017 14:06:37 Europe/Berlin] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 517
+[24-Feb-2017 14:06:37 Europe/Berlin] PHP Notice:  Undefined variable: consu in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 519
+[24-Feb-2017 14:06:45 Europe/Berlin] PHP Notice:  Undefined offset: -1 in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 455
+[24-Feb-2017 14:06:45 Europe/Berlin] PHP Notice:  Undefined variable: depTotal in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 501
+[24-Feb-2017 14:06:48 Europe/Berlin] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 517
+[24-Feb-2017 14:06:48 Europe/Berlin] PHP Notice:  Undefined variable: consu in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 519
+[24-Feb-2017 14:06:59 Europe/Berlin] PHP Notice:  Undefined variable: depTotal in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 503
+[24-Feb-2017 14:07:07 Europe/Berlin] PHP Notice:  Undefined variable: depTotal in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 503
+[24-Feb-2017 14:07:13 Europe/Berlin] PHP Notice:  Undefined variable: depTotal in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 503
+[24-Feb-2017 14:07:25 Europe/Berlin] PHP Notice:  Undefined variable: depTotal in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 503
+[24-Feb-2017 14:42:35 Europe/Berlin] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/validts.php on line 727
+[24-Feb-2017 14:42:35 Europe/Berlin] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/validts.php on line 747
+[24-Feb-2017 14:42:35 Europe/Berlin] PHP Notice:  Undefined variable: kountyTSASS in /var/www/html/Site_TS_Production/guide/ts/validts.php on line 765
+[24-Feb-2017 14:44:01 Europe/Berlin] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/sauveTS.php on line 328
+[24-Feb-2017 14:44:01 Europe/Berlin] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/sauveTS.php on line 354
+[24-Feb-2017 14:44:01 Europe/Berlin] PHP Notice:  Undefined variable: kountyTSASS in /var/www/html/Site_TS_Production/guide/ts/sauveTS.php on line 372
+[24-Feb-2017 14:44:13 Europe/Berlin] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 517
+[24-Feb-2017 14:44:13 Europe/Berlin] PHP Notice:  Undefined variable: consu in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 519
+[24-Feb-2017 14:44:23 Europe/Berlin] PHP Notice:  Undefined variable: depTotal in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 503
+[24-Feb-2017 14:48:31 Europe/Berlin] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/validts.php on line 727
+[24-Feb-2017 14:48:31 Europe/Berlin] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/validts.php on line 747
+[24-Feb-2017 14:48:31 Europe/Berlin] PHP Notice:  Undefined variable: kountyTSASS in /var/www/html/Site_TS_Production/guide/ts/validts.php on line 765
+[24-Feb-2017 14:49:57 Europe/Berlin] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/validts.php on line 727
+[24-Feb-2017 14:49:57 Europe/Berlin] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/validts.php on line 747
+[24-Feb-2017 14:49:57 Europe/Berlin] PHP Notice:  Undefined variable: kountyTSASS in /var/www/html/Site_TS_Production/guide/ts/validts.php on line 765
+[24-Feb-2017 13:51:33 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1575
+[24-Feb-2017 13:51:33 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1581
+[24-Feb-2017 13:51:33 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1758
+[24-Feb-2017 13:51:33 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1759
+[24-Feb-2017 13:51:33 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1780
+[24-Feb-2017 13:51:33 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1781
+[24-Feb-2017 14:51:59 Europe/Berlin] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 517
+[24-Feb-2017 14:51:59 Europe/Berlin] PHP Notice:  Undefined variable: consu in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 519
+[24-Feb-2017 14:52:24 Europe/Berlin] PHP Notice:  Undefined variable: depTotal in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 503
+[24-Feb-2017 14:52:35 Europe/Berlin] PHP Notice:  Undefined variable: depTotal in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 503
+[24-Feb-2017 15:01:30 Europe/Berlin] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 517
+[24-Feb-2017 15:01:30 Europe/Berlin] PHP Notice:  Undefined variable: consu in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 519
+[24-Feb-2017 14:15:19 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1575
+[24-Feb-2017 14:15:19 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1581
+[24-Feb-2017 14:15:19 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1758
+[24-Feb-2017 14:15:19 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1759
+[24-Feb-2017 14:15:19 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1780
+[24-Feb-2017 14:15:19 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1781
+[24-Feb-2017 14:16:02 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1575
+[24-Feb-2017 14:16:02 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1581
+[24-Feb-2017 14:16:02 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1758
+[24-Feb-2017 14:16:02 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1759
+[24-Feb-2017 14:16:02 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1780
+[24-Feb-2017 14:16:02 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1781
+[24-Feb-2017 15:18:42 Europe/Berlin] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 517
+[24-Feb-2017 15:18:42 Europe/Berlin] PHP Notice:  Undefined variable: consu in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 519
+[24-Feb-2017 15:18:47 Europe/Berlin] PHP Notice:  Undefined variable: depTotal in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 503
+[24-Feb-2017 15:18:55 Europe/Berlin] PHP Notice:  Undefined variable: depTotal in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 503
+[24-Feb-2017 15:19:06 Europe/Berlin] PHP Notice:  Undefined offset: -1 in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 455
+[24-Feb-2017 15:19:06 Europe/Berlin] PHP Notice:  Undefined variable: depTotal in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 501
+[24-Feb-2017 18:46:31 Africa/Khartoum] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 517
+[24-Feb-2017 18:46:31 Africa/Khartoum] PHP Notice:  Undefined variable: consu in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 519
+[24-Feb-2017 18:46:34 Africa/Khartoum] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 517
+[24-Feb-2017 18:46:34 Africa/Khartoum] PHP Notice:  Undefined variable: consu in /var/www/html/Site_TS_Production/guide/ts/listets.php on line 519
+[24-Feb-2017 15:46:38 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1575
+[24-Feb-2017 15:46:38 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1581
+[24-Feb-2017 15:46:38 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1758
+[24-Feb-2017 15:46:38 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1759
+[24-Feb-2017 15:46:38 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1780
+[24-Feb-2017 15:46:38 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1781
+[28-Feb-2017 10:25:06 Etc/UTC] PHP Notice:  Undefined variable: periode in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1575
+[28-Feb-2017 10:25:06 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1581
+[28-Feb-2017 10:25:06 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1758
+[28-Feb-2017 10:25:06 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1759
+[28-Feb-2017 10:25:06 Etc/UTC] PHP Notice:  Undefined variable: kountyTS in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1780
+[28-Feb-2017 10:25:06 Etc/UTC] PHP Notice:  Undefined variable: numtot in /var/www/html/Site_TS_Production/guide/ts/saisits.php on line 1781

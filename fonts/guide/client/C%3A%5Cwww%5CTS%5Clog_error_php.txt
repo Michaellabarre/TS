@@ -1,0 +1,8 @@
+[24-Feb-2017 14:42:02 Europe/Berlin] PHP Notice:  Undefined variable: ha_stat in /var/www/html/Site_TS_Production/guide/client/modifclientcode.php on line 831
+[24-Feb-2017 14:42:02 Europe/Berlin] PHP Notice:  Undefined variable: ha_nif in /var/www/html/Site_TS_Production/guide/client/modifclientcode.php on line 832
+[24-Feb-2017 14:42:02 Europe/Berlin] PHP Notice:  Undefined variable: ha_cif in /var/www/html/Site_TS_Production/guide/client/modifclientcode.php on line 833
+[24-Feb-2017 14:42:02 Europe/Berlin] PHP Notice:  Undefined variable: ha_rcs in /var/www/html/Site_TS_Production/guide/client/modifclientcode.php on line 834
+[24-Feb-2017 15:20:12 Europe/Berlin] PHP Notice:  Undefined variable: ha_stat in /var/www/html/Site_TS_Production/guide/client/modifclientcode.php on line 831
+[24-Feb-2017 15:20:12 Europe/Berlin] PHP Notice:  Undefined variable: ha_nif in /var/www/html/Site_TS_Production/guide/client/modifclientcode.php on line 832
+[24-Feb-2017 15:20:12 Europe/Berlin] PHP Notice:  Undefined variable: ha_cif in /var/www/html/Site_TS_Production/guide/client/modifclientcode.php on line 833
+[24-Feb-2017 15:20:12 Europe/Berlin] PHP Notice:  Undefined variable: ha_rcs in /var/www/html/Site_TS_Production/guide/client/modifclientcode.php on line 834

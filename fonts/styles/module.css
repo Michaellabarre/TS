@@ -1,0 +1,111 @@
+/* MODULE */
+.moduleIllustr {
+  position: absolute;
+  top: 16em;
+  right: 3em;
+}
+#moduleLogo {
+  text-align: center;
+}
+
+/* Menu de l'accueil */
+#moduleMenu, #moduleMenu ul, #toolsMenu {
+  padding: 0;
+  list-style-type: none;
+}
+
+
+#moduleMenu, #toolsMenu {
+  margin-top: 3em;
+  margin-left: 3em;
+  color: #003399;
+  position: relative;
+  z-index: 1;
+}
+
+#moduleMenu {
+  margin-top: 8em;
+}
+
+
+#moduleMenu a, #toolsMenu a {
+  color: #003399;
+}
+
+#moduleMenu a:hover, #toolsMenu a:hover {
+  text-decoration: none;
+}
+
+.menuEntry {
+  margin-bottom: 2ex;
+}
+
+.menuEntry a {
+  display: inline !important;
+}
+
+.menuEntry_ti {
+  display: block;
+  padding-left: 25px;
+  background-repeat: no-repeat;
+}
+
+.menuEntry_open .menuEntry_ti {
+  background-image: url("../images/open.gif");
+}
+
+.menuEntry_closed .menuEntry_ti {
+  background-image: url("../images/closed.gif");
+}
+
+.menuEntry_ti {
+  font-size: 130%;
+}
+
+.menuEntry_co {
+  padding-left: 40px;
+}
+
+.menuEntry_co a {
+  font-weight: normal;
+}
+
+.menuEntry_simple {
+  margin-bottom: 2ex;
+  padding: 0.2ex 0 0.2ex 25px;
+  background-image: url("../images/closed.gif");
+  background-repeat: no-repeat;
+}
+
+.glossary {
+  background-image: url("../images/glossaryHome.gif");
+}
+
+.map {
+  background-image: url("../images/mapHome.gif");
+}
+
+.print {
+  background-image: url("../images/printHome.gif");
+}
+
+.resources {
+  background-image: url("../images/resourcesHome.gif");
+}
+
+.tools {
+  background-image: url("../images/resourcesHome.gif");
+}
+
+.intro a, .guidThread a {
+  font-size: 130%;
+}
+
+.copyright {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 16em;
+  text-align: center;
+  padding: 0.5ex 0;
+}

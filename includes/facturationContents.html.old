@@ -1,0 +1,74 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<?php   
+        
+    header ('Content-type:text/html; charset=utf-8');
+	?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" >
+    <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Ordre de facturation</title>
+	  <style>
+			table {
+				width:100%;
+			}
+			table, th, td {
+				border: 1px solid black;
+				border-collapse: collapse;
+			}
+			th, td {
+				padding: 15px;
+				text-align: center;
+				font-size : 12;
+				font-color : black;
+			}
+			table#t01 tr:nth-child(even) {
+				background-color: #eee;
+			}
+			table#t01 tr:nth-child(odd) {
+			   background-color:#fff;
+			}
+			table#t01 th {
+				background-color: gray;
+				color: white;
+			}
+</style>
+    </head>
+    <body>
+        
+        <div style="width: 940px; font-family: Arial, Helvetica, sans-serif; font-size: 12px;">                    
+            
+               <p> Dear all,</br></p>
+			   <p>Please make the following billing order according to the references below : </p>
+			   <strong>
+			   <table id="t01">
+					<tr>
+					<th color = "black">Code de la mission 	</th>
+					<th>Titre de la mission	</th> 
+					<th>Nom du Client	</th>
+					<th>Groupe Client	</th>
+					<th>Intitul&eacute	</th>
+					<th>Montant pr&eacutevisionnel	</th>
+					<th>Date &eacutech&eacuteance</th>
+					<th>Honoraires debours	</th>
+					<th>Devise	</th>
+					</tr>
+					<tr>
+					<td>[code_mission]</td>
+					<td> [titre_mission]</td>
+					<td> [client]</td>
+					<td> [grcli]</td>
+					<td> [libelle]</td>
+					<td> [montant]</td>
+					<td> [date]</td>
+					<td> [type]</td>
+					<td> [devise]</td>
+					</tr>
+			   </table>
+                <br>       
+            </strong>
+			<p>Best Regards, </p>
+            <p>[user]</p> 
+          <strong><p>------- This is a self-generated notification by TimeSheet----------</p></strong>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,9 @@
+[16-Nov-2015 06:56:47] PHP Notice:  Use of undefined constant SECURE - assumed 'SECURE' in /var/www/TS/includes/functions.php on line 22
+[16-Nov-2015 07:03:05] PHP Notice:  Use of undefined constant SECURE - assumed 'SECURE' in /var/www/TS/includes/functions.php on line 22
+[16-Nov-2015 07:03:16] PHP Notice:  Use of undefined constant SECURE - assumed 'SECURE' in /var/www/TS/includes/functions.php on line 22
+[16-Nov-2015 07:03:39] PHP Notice:  Use of undefined constant SECURE - assumed 'SECURE' in /var/www/TS/includes/functions.php on line 22
+[16-Nov-2015 07:04:32] PHP Notice:  Use of undefined constant SECURE - assumed 'SECURE' in /var/www/TS/includes/functions.php on line 22
+[16-Nov-2015 07:08:13] PHP Notice:  Use of undefined constant SECURE - assumed 'SECURE' in /var/www/TS/includes/functions.php on line 22
+[16-Nov-2015 07:13:13] PHP Notice:  Use of undefined constant SECURE - assumed 'SECURE' in /var/www/TS/includes/functions.php on line 22
+[16-Nov-2015 07:22:48] PHP Notice:  Use of undefined constant SECURE - assumed 'SECURE' in /var/www/TS/includes/functions.php on line 22
+[16-Nov-2015 07:56:24] PHP Notice:  Use of undefined constant SECURE - assumed 'SECURE' in /var/www/TS/includes/functions.php on line 22

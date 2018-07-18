@@ -1,0 +1,41 @@
+#centerArea {
+  left: 24em;
+}
+
+#toolsListContent {
+  padding: 4em;
+}
+
+#toolsListContent .toolDescriptionLabel {
+  width: 12em;
+} 
+
+.sw_toolsList_navList {
+  position: absolute;
+  top: 4em;
+  bottom: 4em;
+  left: 2em;
+  width: 20em;
+  padding: 0 2em 3ex 1em;
+  border-right: solid 1px #003399;
+  overflow: auto;
+  list-style-type: none;
+}
+
+.sw_toolsList_navList ul {
+  padding-left: 2em;
+  list-style-type: none;
+}
+  
+.sw_toolsList_navList .mnuOwner_phase {
+  display: block;
+  margin-top: 2ex;
+  margin-right: 1em;
+  font-size:1.2em;
+  font-weight:bold;
+  color: #003399;
+}
+
+#toolsListContent h2 {
+  text-align: center;
+}

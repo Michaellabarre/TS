@@ -1,0 +1,5 @@
+[24-Feb-2017 08:10:49 Europe/Berlin] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'manager'@'localhost' (using password: YES) in /var/www/html/Site_TS_Production/includes/psl-config.php on line 32
+[24-Feb-2017 08:10:49 Europe/Berlin] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /var/www/html/Site_TS_Production/includes/psl-config.php on line 35
+[24-Feb-2017 08:10:49 Europe/Berlin] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'manager'@'localhost' (using password: YES) in /var/www/html/Site_TS_Production/includes/db_connect.php on line 14
+[24-Feb-2017 08:10:49 Europe/Berlin] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/html/Site_TS_Production/includes/db_connect.php on line 15
+[24-Feb-2017 08:10:49 Europe/Berlin] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /var/www/html/Site_TS_Production/includes/functions.php on line 46

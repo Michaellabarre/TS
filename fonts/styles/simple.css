@@ -1,0 +1,30 @@
+#simpleContent {
+  padding: 2em;
+}
+
+/* GUIDING THREAD */
+.guidThreadHead {
+  color: #003399;
+  text-align: center;
+}
+
+/* GLOSSARY */
+.gloss_entry {
+  margin-bottom: 3ex;
+}
+
+.gloss_entry_ti {
+  color: #003399;
+  font-weight: bold;
+}
+
+.menuEntry_simple {
+  margin-bottom: 2ex;
+  padding: 0.2ex 0 0.2ex 25px;
+  background-image: url("../images/closed.gif");
+  background-repeat: no-repeat;
+}
+
+.flashLarge {
+  text-align: center;
+}

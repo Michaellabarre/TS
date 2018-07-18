@@ -1,0 +1,126 @@
+/* GLOBAL */
+html, body {
+  height: 100%;
+}
+
+html {
+  background-color: black;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 10pt;
+  overflow: hidden;
+  /*scrollbar-face-color:#003399;
+  scrollbar-arrow-color:#FFFFFF;*/
+}
+
+#page {
+  position: absolute;
+  top: 2em;
+  right: 2em;
+  left: 2em;
+  bottom: 2em;
+  padding-top: 2em;
+  background-color: white;
+  overflow: hidden;
+}
+
+/* PATRON */
+#header {
+	position: absolute;
+	left: 16em;
+	right: 0;
+	top: 0;
+	height: 24px;
+	color: white;
+	background-color: #003399;
+}
+
+#mainTitle {
+  margin-top: 0.4ex;
+  margin-left: 1em;
+  font-size: 120%;
+  font-weight: bold;
+}
+
+#leftArea {
+  float: left;
+  width: 16em;
+}
+
+#centerArea {
+	position: absolute;
+	top: 2em;
+	left: 16em;
+	right: 0;
+	bottom: 0;
+	overflow: auto;
+	height: auto;
+}
+
+#footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 16em;
+  color: white;
+  background-color: #003399;
+  text-align: center;
+}
+
+/* Barre de navigation */
+#navBar {
+  padding: 0.3ex 0;
+}
+
+/*
+#DIV_footerIn_rightColumn {
+  position: absolute;
+  left: 16em;
+  right: 0;
+  bottom: 0 !important;
+  padding: 1ex 1em;
+  text-align: right;
+}
+*/
+
+.navButton {
+  margin: 0.4em;
+  vertical-align: middle;
+}
+
+
+.mnuSel_yes, .mnuPos_parent, .mnuPos_ancestor {
+  color: #000000;
+  font-weight: bold;
+  text-decoration: none;
+  background-image:url(../images/sidebar-menush.png);
+  padding:5px;
+}
+
+.mnuSel_no{
+background-image:url(../images/sidebar-menus.png);
+padding:5px;
+}
+
+.largeTitle, .largeTitleBlock_ti {
+  margin-top: 1em;
+  margin-right: 1em;
+  font-size:1.2em;
+  font-weight:bold;
+}
+
+
+.backLink {
+  margin: 0 1em;
+  text-align: right;
+}
+
+.backLink a {
+  padding: 0.3ex 0 0.3ex 25px;
+  background-repeat: no-repeat;
+  background-image: url("../images/back.gif");
+}

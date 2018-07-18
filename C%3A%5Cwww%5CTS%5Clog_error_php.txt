@@ -1,0 +1,329 @@
+[24-Feb-2017 08:10:30 Europe/Berlin] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'manager'@'localhost' (using password: YES) in /var/www/html/Site_TS_Production/includes/psl-config.php on line 32
+[24-Feb-2017 08:10:30 Europe/Berlin] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /var/www/html/Site_TS_Production/includes/psl-config.php on line 35
+[24-Feb-2017 08:10:30 Europe/Berlin] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'manager'@'localhost' (using password: YES) in /var/www/html/Site_TS_Production/includes/db_connect.php on line 14
+[24-Feb-2017 08:10:30 Europe/Berlin] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/html/Site_TS_Production/includes/db_connect.php on line 15
+[24-Feb-2017 08:10:49 Europe/Berlin] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'manager'@'localhost' (using password: YES) in /var/www/html/Site_TS_Production/includes/psl-config.php on line 32
+[24-Feb-2017 08:10:49 Europe/Berlin] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /var/www/html/Site_TS_Production/includes/psl-config.php on line 35
+[24-Feb-2017 08:10:49 Europe/Berlin] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'manager'@'localhost' (using password: YES) in /var/www/html/Site_TS_Production/includes/db_connect.php on line 14
+[24-Feb-2017 08:10:49 Europe/Berlin] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/html/Site_TS_Production/includes/db_connect.php on line 15
+[27-Feb-2017 21:20:19 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 166
+[27-Feb-2017 21:20:19 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 166
+[27-Feb-2017 21:20:19 Etc/UTC] PHP Notice:  Undefined variable: emp in /var/www/html/Site_TS_Production/email.php on line 210
+[27-Feb-2017 21:20:19 Etc/UTC] PHP Warning:  implode(): Invalid arguments passed in /var/www/html/Site_TS_Production/email.php on line 210
+[27-Feb-2017 21:21:52 Etc/UTC] PHP Notice:  Undefined variable: mm in /var/www/html/Site_TS_Production/email.php on line 22
+[27-Feb-2017 21:21:52 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 166
+[27-Feb-2017 21:21:52 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 166
+[27-Feb-2017 21:21:52 Etc/UTC] PHP Notice:  Undefined variable: emp in /var/www/html/Site_TS_Production/email.php on line 210
+[27-Feb-2017 21:21:52 Etc/UTC] PHP Warning:  implode(): Invalid arguments passed in /var/www/html/Site_TS_Production/email.php on line 210
+[27-Feb-2017 21:22:10 Etc/UTC] PHP Notice:  Undefined variable: mm in /var/www/html/Site_TS_Production/email.php on line 22
+[27-Feb-2017 21:22:10 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 166
+[27-Feb-2017 21:22:10 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 166
+[27-Feb-2017 21:22:10 Etc/UTC] PHP Notice:  Undefined variable: emp in /var/www/html/Site_TS_Production/email.php on line 210
+[27-Feb-2017 21:22:10 Etc/UTC] PHP Warning:  implode(): Invalid arguments passed in /var/www/html/Site_TS_Production/email.php on line 210
+[27-Feb-2017 21:22:27 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 166
+[27-Feb-2017 21:22:27 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 166
+[27-Feb-2017 21:22:27 Etc/UTC] PHP Notice:  Undefined variable: emp in /var/www/html/Site_TS_Production/email.php on line 210
+[27-Feb-2017 21:22:27 Etc/UTC] PHP Warning:  implode(): Invalid arguments passed in /var/www/html/Site_TS_Production/email.php on line 210
+[27-Feb-2017 21:23:27 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 166
+[27-Feb-2017 21:23:27 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 166
+[27-Feb-2017 21:23:27 Etc/UTC] PHP Notice:  Undefined variable: emp in /var/www/html/Site_TS_Production/email.php on line 210
+[27-Feb-2017 21:23:27 Etc/UTC] PHP Warning:  implode(): Invalid arguments passed in /var/www/html/Site_TS_Production/email.php on line 210
+[27-Feb-2017 21:23:29 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 166
+[27-Feb-2017 21:23:29 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 166
+[27-Feb-2017 21:23:29 Etc/UTC] PHP Notice:  Undefined variable: emp in /var/www/html/Site_TS_Production/email.php on line 210
+[27-Feb-2017 21:23:29 Etc/UTC] PHP Warning:  implode(): Invalid arguments passed in /var/www/html/Site_TS_Production/email.php on line 210
+[27-Feb-2017 21:25:45 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 167
+[27-Feb-2017 21:25:45 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 167
+[27-Feb-2017 21:25:45 Etc/UTC] PHP Notice:  Undefined variable: emp in /var/www/html/Site_TS_Production/email.php on line 211
+[27-Feb-2017 21:25:45 Etc/UTC] PHP Warning:  implode(): Invalid arguments passed in /var/www/html/Site_TS_Production/email.php on line 211
+[27-Feb-2017 21:25:49 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 167
+[27-Feb-2017 21:25:49 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 167
+[27-Feb-2017 21:25:49 Etc/UTC] PHP Notice:  Undefined variable: emp in /var/www/html/Site_TS_Production/email.php on line 211
+[27-Feb-2017 21:25:49 Etc/UTC] PHP Warning:  implode(): Invalid arguments passed in /var/www/html/Site_TS_Production/email.php on line 211
+[27-Feb-2017 21:26:02 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 167
+[27-Feb-2017 21:26:02 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 167
+[27-Feb-2017 21:26:02 Etc/UTC] PHP Notice:  Undefined variable: emp in /var/www/html/Site_TS_Production/email.php on line 211
+[27-Feb-2017 21:26:02 Etc/UTC] PHP Warning:  implode(): Invalid arguments passed in /var/www/html/Site_TS_Production/email.php on line 211
+[27-Feb-2017 21:26:32 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 167
+[27-Feb-2017 21:26:32 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 167
+[27-Feb-2017 21:26:32 Etc/UTC] PHP Notice:  Undefined variable: emp in /var/www/html/Site_TS_Production/email.php on line 211
+[27-Feb-2017 21:26:32 Etc/UTC] PHP Warning:  implode(): Invalid arguments passed in /var/www/html/Site_TS_Production/email.php on line 211
+[27-Feb-2017 21:26:33 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 167
+[27-Feb-2017 21:26:33 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 167
+[27-Feb-2017 21:26:33 Etc/UTC] PHP Notice:  Undefined variable: emp in /var/www/html/Site_TS_Production/email.php on line 211
+[27-Feb-2017 21:26:33 Etc/UTC] PHP Warning:  implode(): Invalid arguments passed in /var/www/html/Site_TS_Production/email.php on line 211
+[27-Feb-2017 21:27:05 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 167
+[27-Feb-2017 21:27:05 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 167
+[27-Feb-2017 21:27:05 Etc/UTC] PHP Notice:  Undefined variable: emp in /var/www/html/Site_TS_Production/email.php on line 211
+[27-Feb-2017 21:27:05 Etc/UTC] PHP Warning:  implode(): Invalid arguments passed in /var/www/html/Site_TS_Production/email.php on line 211
+[27-Feb-2017 21:28:02 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 167
+[27-Feb-2017 21:28:02 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 167
+[27-Feb-2017 21:28:02 Etc/UTC] PHP Notice:  Undefined variable: emp in /var/www/html/Site_TS_Production/email.php on line 211
+[27-Feb-2017 21:28:02 Etc/UTC] PHP Warning:  implode(): Invalid arguments passed in /var/www/html/Site_TS_Production/email.php on line 211
+[27-Feb-2017 21:28:16 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 167
+[27-Feb-2017 21:28:16 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 167
+[27-Feb-2017 21:28:16 Etc/UTC] PHP Notice:  Undefined variable: emp in /var/www/html/Site_TS_Production/email.php on line 211
+[27-Feb-2017 21:28:16 Etc/UTC] PHP Warning:  implode(): Invalid arguments passed in /var/www/html/Site_TS_Production/email.php on line 211
+[27-Feb-2017 21:33:27 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 168
+[27-Feb-2017 21:33:27 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 168
+[27-Feb-2017 21:33:27 Etc/UTC] PHP Notice:  Undefined variable: emp in /var/www/html/Site_TS_Production/email.php on line 212
+[27-Feb-2017 21:33:27 Etc/UTC] PHP Warning:  implode(): Invalid arguments passed in /var/www/html/Site_TS_Production/email.php on line 212
+[27-Feb-2017 21:33:39 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 168
+[27-Feb-2017 21:33:39 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 168
+[27-Feb-2017 21:33:39 Etc/UTC] PHP Notice:  Undefined variable: emp in /var/www/html/Site_TS_Production/email.php on line 212
+[27-Feb-2017 21:33:39 Etc/UTC] PHP Warning:  implode(): Invalid arguments passed in /var/www/html/Site_TS_Production/email.php on line 212
+[27-Feb-2017 21:33:41 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 168
+[27-Feb-2017 21:33:41 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 168
+[27-Feb-2017 21:33:41 Etc/UTC] PHP Notice:  Undefined variable: emp in /var/www/html/Site_TS_Production/email.php on line 212
+[27-Feb-2017 21:33:41 Etc/UTC] PHP Warning:  implode(): Invalid arguments passed in /var/www/html/Site_TS_Production/email.php on line 212
+[27-Feb-2017 21:33:48 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 168
+[27-Feb-2017 21:33:48 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 168
+[27-Feb-2017 21:33:48 Etc/UTC] PHP Notice:  Undefined variable: emp in /var/www/html/Site_TS_Production/email.php on line 212
+[27-Feb-2017 21:33:48 Etc/UTC] PHP Warning:  implode(): Invalid arguments passed in /var/www/html/Site_TS_Production/email.php on line 212
+[27-Feb-2017 21:33:55 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 168
+[27-Feb-2017 21:33:55 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 168
+[27-Feb-2017 21:33:55 Etc/UTC] PHP Notice:  Undefined variable: emp in /var/www/html/Site_TS_Production/email.php on line 212
+[27-Feb-2017 21:33:55 Etc/UTC] PHP Warning:  implode(): Invalid arguments passed in /var/www/html/Site_TS_Production/email.php on line 212
+[27-Feb-2017 21:34:51 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 168
+[27-Feb-2017 21:34:51 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 168
+[27-Feb-2017 21:34:51 Etc/UTC] PHP Notice:  Undefined variable: emp in /var/www/html/Site_TS_Production/email.php on line 212
+[27-Feb-2017 21:34:51 Etc/UTC] PHP Warning:  implode(): Invalid arguments passed in /var/www/html/Site_TS_Production/email.php on line 212
+[27-Feb-2017 21:37:18 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 168
+[27-Feb-2017 21:37:18 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 168
+[27-Feb-2017 21:37:18 Etc/UTC] PHP Notice:  Undefined variable: emp in /var/www/html/Site_TS_Production/email.php on line 212
+[27-Feb-2017 21:37:18 Etc/UTC] PHP Warning:  implode(): Invalid arguments passed in /var/www/html/Site_TS_Production/email.php on line 212
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/email.php on line 180
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Notice:  Undefined variable: emp in /var/www/html/Site_TS_Production/email.php on line 212
+[27-Feb-2017 21:39:30 Etc/UTC] PHP Warning:  implode(): Invalid arguments passed in /var/www/html/Site_TS_Production/email.php on line 212
+[27-Feb-2017 21:55:21 Etc/UTC] PHP Notice:  Undefined variable: date1 in /var/www/html/Site_TS_Production/email.php on line 125
+[27-Feb-2017 21:55:21 Etc/UTC] PHP Notice:  Undefined variable: date2 in /var/www/html/Site_TS_Production/email.php on line 126
+[27-Feb-2017 21:55:21 Etc/UTC] PHP Notice:  Undefined variable: DateEntree in /var/www/html/Site_TS_Production/email.php on line 175
+[27-Feb-2017 22:12:55 Etc/UTC] PHP Notice:  Undefined variable: date1 in /var/www/html/Site_TS_Production/email.php on line 125
+[27-Feb-2017 22:12:55 Etc/UTC] PHP Notice:  Undefined variable: date2 in /var/www/html/Site_TS_Production/email.php on line 126
+[27-Feb-2017 22:12:55 Etc/UTC] PHP Notice:  Undefined variable: DateEntree in /var/www/html/Site_TS_Production/email.php on line 175
+[27-Feb-2017 22:26:56 Etc/UTC] PHP Notice:  Undefined variable: date1 in /var/www/html/Site_TS_Production/email.php on line 127
+[27-Feb-2017 22:26:56 Etc/UTC] PHP Notice:  Undefined variable: date2 in /var/www/html/Site_TS_Production/email.php on line 128
+[27-Feb-2017 22:26:56 Etc/UTC] PHP Notice:  Undefined variable: date1 in /var/www/html/Site_TS_Production/email.php on line 129
+[27-Feb-2017 22:26:56 Etc/UTC] PHP Notice:  Undefined variable: date2 in /var/www/html/Site_TS_Production/email.php on line 130
+[27-Feb-2017 22:26:56 Etc/UTC] PHP Notice:  Undefined variable: DateEntree in /var/www/html/Site_TS_Production/email.php on line 177
+[27-Feb-2017 23:26:19 Etc/UTC] PHP Notice:  Undefined variable: date1 in /var/www/html/Site_TS_Production/email.php on line 128
+[27-Feb-2017 23:26:19 Etc/UTC] PHP Notice:  Undefined variable: date2 in /var/www/html/Site_TS_Production/email.php on line 129
+[27-Feb-2017 23:26:19 Etc/UTC] PHP Notice:  Undefined variable: date1 in /var/www/html/Site_TS_Production/email.php on line 130
+[27-Feb-2017 23:26:19 Etc/UTC] PHP Notice:  Undefined variable: date2 in /var/www/html/Site_TS_Production/email.php on line 131
+[27-Feb-2017 23:26:19 Etc/UTC] PHP Notice:  Undefined variable: DateEntree in /var/www/html/Site_TS_Production/email.php on line 178
+[27-Feb-2017 23:26:28 Etc/UTC] PHP Notice:  Undefined variable: date1 in /var/www/html/Site_TS_Production/email.php on line 128
+[27-Feb-2017 23:26:28 Etc/UTC] PHP Notice:  Undefined variable: date2 in /var/www/html/Site_TS_Production/email.php on line 129
+[27-Feb-2017 23:26:28 Etc/UTC] PHP Notice:  Undefined variable: date1 in /var/www/html/Site_TS_Production/email.php on line 130
+[27-Feb-2017 23:26:28 Etc/UTC] PHP Notice:  Undefined variable: date2 in /var/www/html/Site_TS_Production/email.php on line 131
+[27-Feb-2017 23:26:28 Etc/UTC] PHP Notice:  Undefined variable: DateEntree in /var/www/html/Site_TS_Production/email.php on line 178
+[27-Feb-2017 23:26:30 Etc/UTC] PHP Notice:  Undefined variable: date1 in /var/www/html/Site_TS_Production/email.php on line 128
+[27-Feb-2017 23:26:30 Etc/UTC] PHP Notice:  Undefined variable: date2 in /var/www/html/Site_TS_Production/email.php on line 129
+[27-Feb-2017 23:26:30 Etc/UTC] PHP Notice:  Undefined variable: date1 in /var/www/html/Site_TS_Production/email.php on line 130
+[27-Feb-2017 23:26:30 Etc/UTC] PHP Notice:  Undefined variable: date2 in /var/www/html/Site_TS_Production/email.php on line 131
+[27-Feb-2017 23:26:30 Etc/UTC] PHP Notice:  Undefined variable: DateEntree in /var/www/html/Site_TS_Production/email.php on line 178
+[27-Feb-2017 23:26:42 Etc/UTC] PHP Notice:  Undefined variable: date1 in /var/www/html/Site_TS_Production/email.php on line 128
+[27-Feb-2017 23:26:42 Etc/UTC] PHP Notice:  Undefined variable: date2 in /var/www/html/Site_TS_Production/email.php on line 129
+[27-Feb-2017 23:26:42 Etc/UTC] PHP Notice:  Undefined variable: date1 in /var/www/html/Site_TS_Production/email.php on line 130
+[27-Feb-2017 23:26:42 Etc/UTC] PHP Notice:  Undefined variable: date2 in /var/www/html/Site_TS_Production/email.php on line 131
+[27-Feb-2017 23:26:42 Etc/UTC] PHP Notice:  Undefined variable: DateEntree in /var/www/html/Site_TS_Production/email.php on line 178
+[27-Feb-2017 23:26:44 Etc/UTC] PHP Notice:  Undefined variable: date1 in /var/www/html/Site_TS_Production/email.php on line 128
+[27-Feb-2017 23:26:44 Etc/UTC] PHP Notice:  Undefined variable: date2 in /var/www/html/Site_TS_Production/email.php on line 129
+[27-Feb-2017 23:26:44 Etc/UTC] PHP Notice:  Undefined variable: date1 in /var/www/html/Site_TS_Production/email.php on line 130
+[27-Feb-2017 23:26:44 Etc/UTC] PHP Notice:  Undefined variable: date2 in /var/www/html/Site_TS_Production/email.php on line 131
+[27-Feb-2017 23:26:44 Etc/UTC] PHP Notice:  Undefined variable: DateEntree in /var/www/html/Site_TS_Production/email.php on line 178
+[27-Feb-2017 23:36:53 Etc/UTC] PHP Notice:  Undefined variable: date1 in /var/www/html/Site_TS_Production/email.php on line 129
+[27-Feb-2017 23:36:53 Etc/UTC] PHP Notice:  Undefined variable: date2 in /var/www/html/Site_TS_Production/email.php on line 130
+[27-Feb-2017 23:36:53 Etc/UTC] PHP Notice:  Undefined variable: date1 in /var/www/html/Site_TS_Production/email.php on line 131
+[27-Feb-2017 23:36:53 Etc/UTC] PHP Notice:  Undefined variable: date2 in /var/www/html/Site_TS_Production/email.php on line 132
+[27-Feb-2017 23:36:53 Etc/UTC] PHP Notice:  Undefined variable: DateEntree in /var/www/html/Site_TS_Production/email.php on line 179
+[27-Feb-2017 23:39:08 Etc/UTC] PHP Notice:  Undefined variable: date1 in /var/www/html/Site_TS_Production/email.php on line 129
+[27-Feb-2017 23:39:08 Etc/UTC] PHP Notice:  Undefined variable: date2 in /var/www/html/Site_TS_Production/email.php on line 130
+[27-Feb-2017 23:39:08 Etc/UTC] PHP Notice:  Undefined variable: date1 in /var/www/html/Site_TS_Production/email.php on line 131
+[27-Feb-2017 23:39:08 Etc/UTC] PHP Notice:  Undefined variable: date2 in /var/www/html/Site_TS_Production/email.php on line 132
+[27-Feb-2017 23:39:08 Etc/UTC] PHP Notice:  Undefined variable: DateEntree in /var/www/html/Site_TS_Production/email.php on line 180
+[28-Feb-2017 09:51:08 Etc/UTC] PHP Notice:  Undefined variable: date1 in /var/www/html/Site_TS_Production/email.php on line 136
+[28-Feb-2017 09:51:08 Etc/UTC] PHP Notice:  Undefined variable: date2 in /var/www/html/Site_TS_Production/email.php on line 137
+[28-Feb-2017 09:51:08 Etc/UTC] PHP Notice:  Undefined variable: date1 in /var/www/html/Site_TS_Production/email.php on line 138
+[28-Feb-2017 09:51:08 Etc/UTC] PHP Notice:  Undefined variable: date2 in /var/www/html/Site_TS_Production/email.php on line 139
+[28-Feb-2017 09:51:08 Etc/UTC] PHP Notice:  Undefined variable: DateEntree in /var/www/html/Site_TS_Production/email.php on line 187
+[28-Feb-2017 10:11:55 Etc/UTC] PHP Parse error:  syntax error, unexpected 'var_dump' (T_STRING) in /var/www/html/Site_TS_Production/includes/fonction.php on line 22
+[28-Feb-2017 10:11:57 Etc/UTC] PHP Parse error:  syntax error, unexpected 'var_dump' (T_STRING) in /var/www/html/Site_TS_Production/includes/fonction.php on line 22
+[28-Feb-2017 10:12:24 Etc/UTC] PHP Parse error:  syntax error, unexpected 'var_dump' (T_STRING) in /var/www/html/Site_TS_Production/includes/fonction.php on line 22
+[28-Feb-2017 10:14:54 Etc/UTC] PHP Parse error:  syntax error, unexpected '$diff_year' (T_VARIABLE), expecting ',' or ';' in /var/www/html/Site_TS_Production/includes/fonction.php on line 22
+[28-Feb-2017 10:15:53 Etc/UTC] PHP Parse error:  syntax error, unexpected ''diff_year = '' (T_CONSTANT_ENCAPSED_STRING) in /var/www/html/Site_TS_Production/includes/fonction.php on line 22
+[28-Feb-2017 10:16:09 Etc/UTC] PHP Parse error:  syntax error, unexpected 'Y' (T_STRING) in /var/www/html/Site_TS_Production/includes/fonction.php on line 24

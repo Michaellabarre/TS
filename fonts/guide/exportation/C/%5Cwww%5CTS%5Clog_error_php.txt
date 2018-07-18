@@ -1,0 +1,197 @@
+[24-Feb-2017 13:31:17 Europe/Berlin] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/exportation/export_TS_Cons.php on line 337
+[24-Feb-2017 13:31:17 Europe/Berlin] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/exportation/export_TS_Cons.php on line 337
+[24-Feb-2017 13:31:18 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /var/www/html/Site_TS_Production/guide/exportation/export_TS_Cons.php on line 18
+[24-Feb-2017 13:31:18 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /var/www/html/Site_TS_Production/guide/exportation/export_TS_Cons.php on line 18
+[24-Feb-2017 13:33:49 Europe/Berlin] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/exportation/export_TS_Cons.php on line 337
+[24-Feb-2017 13:33:49 Europe/Berlin] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/exportation/export_TS_Cons.php on line 337
+[24-Feb-2017 13:34:19 Europe/Berlin] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/exportation/export_TS_Cons.php on line 337
+[24-Feb-2017 13:34:19 Europe/Berlin] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/exportation/export_TS_Cons.php on line 337
+[24-Feb-2017 13:36:24 Europe/Berlin] PHP Notice:  Undefined offset: -1 in /var/www/html/Site_TS_Production/guide/exportation/exportTS_cons.php on line 124
+[24-Feb-2017 13:37:46 Europe/Berlin] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/exportation/export_TS_Cons.php on line 337
+[24-Feb-2017 13:37:46 Europe/Berlin] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/exportation/export_TS_Cons.php on line 337
+[24-Feb-2017 13:37:49 Europe/Berlin] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/exportation/export_TS_Cons.php on line 337
+[24-Feb-2017 13:37:49 Europe/Berlin] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/exportation/export_TS_Cons.php on line 337
+[24-Feb-2017 13:37:59 Europe/Berlin] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/exportation/export_TS_Cons.php on line 337
+[24-Feb-2017 13:37:59 Europe/Berlin] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/exportation/export_TS_Cons.php on line 337
+[24-Feb-2017 13:38:33 Europe/Berlin] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/exportation/export_TS_Cons.php on line 337
+[24-Feb-2017 13:38:33 Europe/Berlin] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/exportation/export_TS_Cons.php on line 337
+[24-Feb-2017 13:38:34 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /var/www/html/Site_TS_Production/guide/exportation/export_TS_Cons.php on line 18
+[24-Feb-2017 13:38:34 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /var/www/html/Site_TS_Production/guide/exportation/export_TS_Cons.php on line 18
+[24-Feb-2017 13:38:34 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /var/www/html/Site_TS_Production/guide/exportation/export_TS_Cons.php on line 18
+[24-Feb-2017 13:38:34 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /var/www/html/Site_TS_Production/guide/exportation/export_TS_Cons.php on line 18
+[24-Feb-2017 13:38:37 Europe/Berlin] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/exportation/export_TS_Cons.php on line 337
+[24-Feb-2017 13:38:37 Europe/Berlin] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/exportation/export_TS_Cons.php on line 337
+[24-Feb-2017 13:41:57 Europe/Berlin] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/exportation/export_TS_Cons.php on line 337
+[24-Feb-2017 13:41:57 Europe/Berlin] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/exportation/export_TS_Cons.php on line 337
+[24-Feb-2017 13:41:58 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /var/www/html/Site_TS_Production/guide/exportation/export_TS_Cons.php on line 18
+[24-Feb-2017 13:41:58 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /var/www/html/Site_TS_Production/guide/exportation/export_TS_Cons.php on line 18
+[24-Feb-2017 13:42:00 Europe/Berlin] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/exportation/export_TS_Cons.php on line 337
+[24-Feb-2017 13:42:00 Europe/Berlin] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/exportation/export_TS_Cons.php on line 337
+[24-Feb-2017 13:42:22 Europe/Berlin] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/exportation/export_TS_Cons.php on line 337
+[24-Feb-2017 13:42:22 Europe/Berlin] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/exportation/export_TS_Cons.php on line 337
+[24-Feb-2017 13:48:14 Europe/Berlin] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/exportation/export_TS_Cons.php on line 337
+[24-Feb-2017 13:48:14 Europe/Berlin] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/exportation/export_TS_Cons.php on line 337
+[24-Feb-2017 13:49:31 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /var/www/html/Site_TS_Production/guide/exportation/export_TS_Cons.php on line 18
+[24-Feb-2017 13:49:31 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /var/www/html/Site_TS_Production/guide/exportation/export_TS_Cons.php on line 18
+[24-Feb-2017 13:49:34 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /var/www/html/Site_TS_Production/guide/exportation/export_TS_Cons.php on line 18
+[24-Feb-2017 13:49:34 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /var/www/html/Site_TS_Production/guide/exportation/export_TS_Cons.php on line 18
+[24-Feb-2017 13:49:38 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /var/www/html/Site_TS_Production/guide/exportation/export_TS_Cons.php on line 18
+[24-Feb-2017 13:49:38 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /var/www/html/Site_TS_Production/guide/exportation/export_TS_Cons.php on line 18
+[24-Feb-2017 13:49:39 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /var/www/html/Site_TS_Production/guide/exportation/export_TS_Cons.php on line 18
+[24-Feb-2017 13:49:39 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /var/www/html/Site_TS_Production/guide/exportation/export_TS_Cons.php on line 18
+[24-Feb-2017 13:49:39 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /var/www/html/Site_TS_Production/guide/exportation/export_TS_Cons.php on line 18
+[24-Feb-2017 13:49:39 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /var/www/html/Site_TS_Production/guide/exportation/export_TS_Cons.php on line 18
+[24-Feb-2017 13:51:22 Europe/Berlin] PHP Notice:  Undefined offset: -1 in /var/www/html/Site_TS_Production/guide/exportation/export_TS_Cons.php on line 343
+[24-Feb-2017 13:52:35 Europe/Berlin] PHP Notice:  Undefined offset: -1 in /var/www/html/Site_TS_Production/guide/exportation/exportTS_cons.php on line 125
+[24-Feb-2017 13:55:50 Europe/Berlin] PHP Notice:  Undefined offset: -1 in /var/www/html/Site_TS_Production/guide/exportation/export_TS_Cons.php on line 343
+[24-Feb-2017 14:01:15 Europe/Berlin] PHP Notice:  Undefined offset: -1 in /var/www/html/Site_TS_Production/guide/exportation/export_TS_Cons.php on line 343
+[24-Feb-2017 14:01:45 Europe/Berlin] PHP Notice:  Undefined offset: -1 in /var/www/html/Site_TS_Production/guide/exportation/export_TS_Cons.php on line 343
+[24-Feb-2017 14:02:43 Europe/Berlin] PHP Notice:  Undefined offset: -1 in /var/www/html/Site_TS_Production/guide/exportation/exportTS_cons.php on line 125
+[24-Feb-2017 14:03:30 Europe/Berlin] PHP Notice:  Undefined offset: -1 in /var/www/html/Site_TS_Production/guide/exportation/exportTS_cons.php on line 125
+[24-Feb-2017 14:44:25 Europe/Berlin] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 296
+[24-Feb-2017 14:44:25 Europe/Berlin] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 296
+[24-Feb-2017 14:44:25 Europe/Berlin] PHP Notice:  Undefined variable: collaborateur in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 979
+[24-Feb-2017 14:44:25 Europe/Berlin] PHP Notice:  Undefined variable: mm in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 980
+[24-Feb-2017 14:44:29 Europe/Berlin] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 296
+[24-Feb-2017 14:44:29 Europe/Berlin] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 296
+[24-Feb-2017 14:44:29 Europe/Berlin] PHP Notice:  Undefined variable: collaborateur in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 979
+[24-Feb-2017 14:44:29 Europe/Berlin] PHP Notice:  Undefined variable: mm in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 980
+[24-Feb-2017 14:46:02 Europe/Berlin] PHP Notice:  Undefined variable: collaborateur in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 979
+[24-Feb-2017 14:46:02 Europe/Berlin] PHP Notice:  Undefined variable: mm in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 980
+[24-Feb-2017 14:46:18 Europe/Berlin] PHP Notice:  Undefined variable: collaborateur in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 979
+[24-Feb-2017 14:46:18 Europe/Berlin] PHP Notice:  Undefined variable: mm in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 980
+[24-Feb-2017 14:46:38 Europe/Berlin] PHP Notice:  Undefined variable: collaborateur in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 979
+[24-Feb-2017 14:46:38 Europe/Berlin] PHP Notice:  Undefined variable: mm in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 980
+[24-Feb-2017 14:47:26 Europe/Berlin] PHP Notice:  Undefined variable: collaborateur in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 979
+[24-Feb-2017 14:47:26 Europe/Berlin] PHP Notice:  Undefined variable: mm in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 980
+[24-Feb-2017 14:47:41 Europe/Berlin] PHP Notice:  Undefined offset: -1 in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 583
+[24-Feb-2017 14:47:49 Europe/Berlin] PHP Notice:  Undefined offset: -1 in /var/www/html/Site_TS_Production/guide/exportation/exportTSMan.php on line 279
+[24-Feb-2017 14:48:21 Europe/Berlin] PHP Notice:  Undefined variable: collaborateur in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 979
+[24-Feb-2017 14:48:21 Europe/Berlin] PHP Notice:  Undefined variable: mm in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 980
+[24-Feb-2017 15:23:53 Europe/Berlin] PHP Notice:  Undefined variable: collaborateur in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 979
+[24-Feb-2017 15:23:53 Europe/Berlin] PHP Notice:  Undefined variable: mm in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 980
+[24-Feb-2017 15:24:14 Europe/Berlin] PHP Notice:  Undefined variable: collaborateur in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 979
+[24-Feb-2017 15:24:14 Europe/Berlin] PHP Notice:  Undefined variable: mm in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 980
+[24-Feb-2017 15:24:14 Europe/Berlin] PHP Notice:  Undefined variable: collaborateur in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 979
+[24-Feb-2017 15:24:14 Europe/Berlin] PHP Notice:  Undefined variable: mm in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 980
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined offset: -1 in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 415
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 438
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 441
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 438
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 441
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 438
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 441
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 438
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 441
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 438
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 441
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 438
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 441
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 438
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 441
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 438
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 441
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 438
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 441
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 438
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 441
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 438
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 441
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 438
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 441
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 438
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 441
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 438
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 441
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 438
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 441
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 438
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 441
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 438
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 441
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 438
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 441
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 438
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 441
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 438
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 441
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 438
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 441
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 438
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 441
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 438
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 441
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 438
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 441
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 438
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 441
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 438
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 441
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 438
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 441
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 438
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 441
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 438
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 441
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 438
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 441
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 438
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 441
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 438
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 441
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 438
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 441
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 438
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 441
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 438
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 441
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 438
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 441
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 438
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 441
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 438
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 441
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 438
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 441
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 438
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 441
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 438
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 441
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 438
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 441
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 438
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 441
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 438
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 441
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 438
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 441
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 438
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 441
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 438
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 441
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 438
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 441
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 438
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 441
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 438
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 441
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 438
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 441
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 438
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 441
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 438
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 441
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 438
+[24-Feb-2017 15:24:23 Europe/Berlin] PHP Notice:  Undefined index: Validation in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 441
+[01-Mar-2017 13:15:47 Africa/Khartoum] PHP Notice:  Undefined offset: 2 in /var/www/html/Site_TS_Production/guide/exportation/export_TS_Cons.php on line 18
+[01-Mar-2017 13:15:47 Africa/Khartoum] PHP Notice:  Undefined offset: 1 in /var/www/html/Site_TS_Production/guide/exportation/export_TS_Cons.php on line 18
+[01-Mar-2017 13:16:15 Africa/Khartoum] PHP Notice:  Undefined offset: 2 in /var/www/html/Site_TS_Production/guide/exportation/export_TS_Cons.php on line 18
+[01-Mar-2017 13:16:15 Africa/Khartoum] PHP Notice:  Undefined offset: 1 in /var/www/html/Site_TS_Production/guide/exportation/export_TS_Cons.php on line 18
+[01-Mar-2017 13:16:27 Africa/Khartoum] PHP Notice:  Undefined offset: -1 in /var/www/html/Site_TS_Production/guide/exportation/export_TS_Cons.php on line 343
+[01-Mar-2017 13:16:47 Africa/Khartoum] PHP Notice:  Undefined variable: reqNomCons in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 296
+[01-Mar-2017 13:16:47 Africa/Khartoum] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 296
+[01-Mar-2017 13:16:47 Africa/Khartoum] PHP Notice:  Undefined variable: collaborateur in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 979
+[01-Mar-2017 13:16:47 Africa/Khartoum] PHP Notice:  Undefined variable: mm in /var/www/html/Site_TS_Production/guide/exportation/index.php on line 980
+[01-Mar-2017 13:17:20 Africa/Khartoum] PHP Notice:  Undefined offset: -1 in /var/www/html/Site_TS_Production/guide/exportation/export_TS_Cons.php on line 343
+[01-Mar-2017 13:17:48 Africa/Khartoum] PHP Notice:  Undefined offset: -1 in /var/www/html/Site_TS_Production/guide/exportation/export_TS_Cons.php on line 343
+[01-Mar-2017 13:18:04 Africa/Khartoum] PHP Notice:  Undefined offset: -1 in /var/www/html/Site_TS_Production/guide/exportation/exportTS_cons.php on line 125

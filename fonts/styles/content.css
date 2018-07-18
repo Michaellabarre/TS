@@ -1,0 +1,159 @@
+/* CONTENT */
+a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a img {
+  border: none;
+}
+
+ul {
+  margin: 0;
+  padding-left: 3em;
+}
+
+.ln_text_p, .ln_text_p {
+  margin: 2ex 3em;
+  text-align: justify;
+}
+
+.ln_textIntro_is_emphasis {
+  font-weight: bold;
+}
+
+/* Bp */
+.bp {
+  margin: 3ex 3em 3ex 1em;
+  padding-left: 2em;
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+
+.bp_ti {
+  float: left;
+  margin: 0;
+  padding: 0 1ex 0 0;
+  font-weight: bold;
+}
+
+.surroundBP {
+  margin: auto;
+  width: auto;
+}
+
+.surroundBP_ti {
+  width: auto;/*10em*/
+  padding: 0.5ex;
+  color: white;
+  background-color: #003399;
+  font-weight: bold;
+  text-align: center;
+}
+
+.surroundBP_co {
+  padding: 1ex 1ex;
+  border: solid 1px #003399;
+  width:  auto;
+}
+
+.bp_co .ln_text_p, .bp_co .ln_text_sl, .surroundBP_co .ln_text_p, .surroundBP_co .ln_text_sl, .ln_textIntro_sl, .ln_textIntro_sl {
+  margin: 1ex 0;
+}
+
+.bp_co .ln_text_sl {
+	clear: both;
+	list-style-type: disc;
+}
+
+.ln_bp_explanation {
+  background-image: url("../images/explanation.png");
+}
+
+.ln_bp_remark {
+  background-image: url("../images/remark.png");
+}
+
+.ln_bp_warning {
+  background-image: url("../images/warning.png");
+}
+
+.ln_bp_method {
+  background-image: url("../images/method.png");
+}
+
+.ln_bp_advice {
+  background-image: url("../images/advice.png");
+}
+
+.ln_bp_example {
+  background-image: url("../images/example.png");
+}
+
+/* R�f�rences */
+/* D�finition */
+.ln_text_ul_definition, .ln_textIntro_ul_definition, .ln_para_ul_definition {
+  background-color: #FFFFCC;
+  cursor: pointer;
+}
+
+/* Outil */
+.ln_text_ul_tool, .ln_textIntro_ul_tool, .ln_para_ul_tool {
+  color: #003399;
+}
+
+
+.tooltip {
+  border: solid 1px #666666;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size: 75%;
+  cursor: default;
+}
+
+.ln_text_tt_definition, .ln_textIntro_tt_definition, .ln_para_tt_definition {
+  background-color: #FFFFCC;
+}
+
+.tooltip_co {
+  padding: 1ex;
+}
+
+.tooltip_ti {
+  padding: 0.2ex 16px;
+  color: white;
+  background-color: #003399;
+  border-bottom: 1px solid #666666;
+  font-weight: bold;
+  text-align: center;
+}
+
+.ln_text_tt_x, .ln_textIntro_tt_x, .ln_para_tt_x {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 16px;
+  height: 16px;
+  background-image: url("../images/cross.gif");
+  background-repeat: no-repeat;
+  background-position: center right;
+
+  text-indent: -1000px;
+  overflow: hidden;
+}
+
+.tooltipTitle {
+  font-weight: bold;
+  padding-bottom: 1ex;
+  border-bottom: solid 1px black;
+}
+
+.ttEmphasis {
+  font-weight: bold;
+}
+

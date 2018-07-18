@@ -1,0 +1,99 @@
+/* MAP */
+.mapBlock0, .mapBlock1, .mapBlock2, .mapBlock3 {
+  position: absolute;
+  top: 0;
+  height: 90%;
+}
+
+.mapBlock0 {
+  position: absolute;
+  top: 0;
+  left: 5%;
+  width: 10%;
+  text-align: center;
+}
+
+.mapBlock1 {
+  display: none;
+  left: 15%;
+  width: 20%;
+}
+
+.mapBlock2 {
+  display: none;
+  left: 40%;
+  width: 20%;
+}
+
+.mapBlock3 {
+  display: none;
+  left: 65%;
+  width: 20%;
+}
+
+.mapRootEntry {
+  position: absolute;
+}
+
+.mapEntry {
+  display: block;
+  position: absolute;
+  padding-left: 16px;
+  background-image: url("../images/pointn.gif");
+  background-position: left center;
+  background-repeat: no-repeat;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.mapEntry:hover {
+  text-decoration: underline;
+}
+
+.mapEntryTools {
+  position:absolute;
+  width: 100%;
+  padding: 1ex 1em;
+  background-image: url("../images/tools.png");
+  background-position: 95% 10%;
+  background-repeat: no-repeat;
+  border: solid 2px #003399;
+  
+}
+
+.mapEntryTools ul {
+  margin: 1ex 0;
+}
+
+.toolsMapIcon {
+  float: right;
+  margin-left: 1em;
+}
+
+.phaseClr0 {
+  color: #996699;
+}
+
+.phaseClr1 {
+  color: #9999CC;
+}
+
+.phaseClr2 {
+  color: #666699;
+}
+
+.phaseClr3 {
+  color: #669999;
+}
+
+.phaseClr4 {
+  color: #336666;
+}
+
+.phaseClr5 {
+  color: #CC6666;
+}
+
+.phaseClr6 {
+  color: #CC3333;
+}

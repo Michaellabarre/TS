@@ -1,0 +1,15 @@
+[24-Feb-2017 08:12:17 Europe/Berlin] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/nbOnline.php on line 22
+[24-Feb-2017 08:12:17 Europe/Berlin] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/nbOnline.php on line 22
+[24-Feb-2017 08:12:17 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_free_result() in /var/www/html/Site_TS_Production/guide/nbOnline.php:23
+Stack trace:
+#0 /var/www/html/Site_TS_Production/guide/index.php(8): include()
+#1 {main}
+  thrown in /var/www/html/Site_TS_Production/guide/nbOnline.php on line 23
+[24-Feb-2017 08:13:46 Europe/Berlin] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/nbOnline.php on line 22
+[24-Feb-2017 08:13:46 Europe/Berlin] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/nbOnline.php on line 22
+[24-Feb-2017 13:05:09 Europe/Berlin] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/nbOnline.php on line 22
+[24-Feb-2017 13:05:09 Europe/Berlin] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/nbOnline.php on line 22
+[24-Feb-2017 13:21:06 Europe/Berlin] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/nbOnline.php on line 22
+[24-Feb-2017 13:21:06 Europe/Berlin] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/nbOnline.php on line 22
+[24-Feb-2017 14:06:33 Europe/Berlin] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/nbOnline.php on line 22
+[24-Feb-2017 14:06:33 Europe/Berlin] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/nbOnline.php on line 22

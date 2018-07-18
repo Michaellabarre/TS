@@ -1,0 +1,154 @@
+/* TOOL */
+.toolsList {
+  clear: both;
+  float: left;
+  width: 16em;
+  border-right: solid 1px #003399;
+}
+
+.guidThreadStep {
+  margin-right: 1em;
+}
+
+.guidThreadHead {
+  color: #003399;
+  margin: 3ex 0 1ex;
+}
+
+.logoGT {
+  text-align: left;
+  margin-right: 1em;
+}
+
+/* Menu d'outil */
+.sw_toolsMenu_navList, .sw_guidThread_navList {
+  padding: 0;
+  margin: 0;
+  margin-right: 2em;
+  list-style-type: none;
+}
+
+.sw_toolsMenu_navList li, .sw_guidThread_navList li {
+  margin: 2ex 0 2ex 0;
+}
+
+#toolContent {
+  margin-left: 18em;
+}
+
+.toolSelect {
+  width: 16em !important;
+  padding: 1em;
+  border: solid 2px #003399;
+  font-size: 120%;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+}
+
+.toolLink {
+  display:block;
+  float:left;
+  width:3em;
+  margin-left:3em;
+  padding-left: 35px;
+  background-repeat:no-repeat;
+  text-align:left;
+}
+
+.explainedToolLink, .instancedToolLink {
+  background-image: url("../images/tool.png");
+}
+
+.cleanToolLink {
+  background-image: url("../images/toolClean.png");
+}
+
+.toolDescription {
+  padding-top: 4em;
+}
+
+.toolDescriptionLabel {
+  float: left;
+  font-size: 135%;
+  font-weight: bold;
+}
+
+.toolExplained {
+  padding: 1em;
+  margin: 1em;
+  border: solid 2px #666666;
+}
+
+.toolExplained h2 {
+  text-align: center;
+}
+
+.toolHeading_co {
+  font-weight: normal;
+}
+
+.instructions {
+  margin: 0 3em 0 3em;
+  padding: 0;
+  list-style-type: disc;
+}
+
+.instructions li {
+  margin: 3ex 0 3ex 0;
+}
+
+.instructions .ln_text_p {
+  margin: 0;
+  padding: 0;
+}
+
+.ln_instructions_instruction {
+  background-image: url("../images/instruction.png");
+}
+
+.resource {
+  text-align: center;
+}
+
+/* Plan */
+.planList, .sectionList, .methodoList, .checkList {
+  font-weight: bold;
+}
+
+.planList {
+  list-style-type: upper-alpha;
+}
+
+.sectionList {
+  list-style-type: decimal;
+}
+
+.sectionList .sectionList {
+  list-style-type: lower-alpha;
+}
+
+.sectionList h5, .sectionList h6 {
+  font-size: 100%;
+}
+
+.sectionHeading_co {
+  font-weight: normal;
+}
+
+/* CheckList */
+.checkList {
+  margin: 0;
+  padding-left: 1em;
+  list-style-type: none;
+}
+
+.check {
+  margin: 3ex 0 3ex 1em;
+  padding-left: 22px;
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-image: url("../images/check.png");
+  font-weight: normal;
+  list-style-type: none;
+}

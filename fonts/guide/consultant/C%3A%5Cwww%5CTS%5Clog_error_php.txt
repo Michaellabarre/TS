@@ -1,0 +1,8 @@
+[24-Feb-2017 14:11:34 Europe/Berlin] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/consultant/listeconsultant.php on line 277
+[24-Feb-2017 14:11:34 Europe/Berlin] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/consultant/listeconsultant.php on line 277
+[24-Feb-2017 14:11:37 Europe/Berlin] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/consultant/listeconsultexterne.php on line 246
+[24-Feb-2017 14:11:37 Europe/Berlin] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/consultant/listeconsultexterne.php on line 246
+[24-Feb-2017 14:11:39 Europe/Berlin] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/consultant/listeconsultinterne.php on line 261
+[24-Feb-2017 14:11:39 Europe/Berlin] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/consultant/listeconsultinterne.php on line 261
+[24-Feb-2017 14:11:42 Europe/Berlin] PHP Notice:  Use of undefined constant MYSQL_BOTH - assumed 'MYSQL_BOTH' in /var/www/html/Site_TS_Production/guide/consultant/listeconsultant.php on line 277
+[24-Feb-2017 14:11:42 Europe/Berlin] PHP Warning:  mysqli_fetch_array() expects parameter 2 to be integer, string given in /var/www/html/Site_TS_Production/guide/consultant/listeconsultant.php on line 277

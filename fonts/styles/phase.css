@@ -1,0 +1,44 @@
+/* PHASE */
+#phaseContent {
+  padding: 4px;
+}
+
+.phaseClr {
+  color: black;
+}
+
+.phaseBkgClr {
+  background-color: black;
+}
+
+/* Menu de de phase */
+.sw_phaseMenu_navList {
+  margin: 0;
+  margin-top: 2em;
+  padding: 1em;
+  border-right: solid 1px black;
+  list-style-type: none;
+  text-align: right;
+}
+
+
+
+.illustration {
+  position: absolute;
+  top: 35ex;
+}
+
+.copyright {
+  position: absolute;
+  bottom: 2em;
+  width: 16em;
+  text-align: center;
+  padding: 0.5ex 0;
+}
+
+#introTitle {
+  color: #003399;
+  font-size: 120%;
+  font-weight: bold;
+  margin: 1.3ex 0 9.5ex 0;
+}
