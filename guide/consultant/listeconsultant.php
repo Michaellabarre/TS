@@ -321,14 +321,18 @@
                     <center>
                     <!-- LISTER LES CLIENTS DANS LA BASE VIA REQUETES ET L'AFFICHER SOUS FORME DE TABLEAU HTML-->
                         <?php                        
-                            $liste = 'select RefEmploye as Code, Prenom as Prénom, NomFamille as Nom, Titre FROM employes 
-                            where Profil=\'consultant\'
-                            or Profil=\'consultante\' '
+                           // $liste = 'select RefEmploye as Code, Prenom as Prénom, NomFamille as Nom, Titre FROM employes 
+                          //  where Profil=\'consultant\'
+                          //  or Profil=\'consultante\' '
                                     //. 'and RefEmploye not in ("Z05", "Z06", "Z07", "ZA1", "ZA2", "ZA3", "ZZZ") '
-                                    . 'or RefEmploye like "%E0%"'
-                                    . 'and actif = 0 '
-                                    . 'ORDER BY RefEmploye ASC;';
+                          //          . 'or RefEmploye like "%E0%"'
+                          //          . 'and actif = 0 '
+                           //         . 'ORDER BY RefEmploye ASC;';
 //                            affisazy($liste);
+                            $liste ='select RefEmploye as Code, Prenom as Prénom, NomFamille as Nom, Titre FROM employes '
+                                    . 'where RefEmploye like "%E0%" or RefEmploye not like "%E0%" and actif = 0 '
+                                    . 'and RefEmploye not in ("Z05", "Z06", "Z07", "ZA1", "ZA2", "ZA3", "ZZZ", "ITADMIN") '
+                                    . 'ORDER BY RefEmploye ASC;'; 
                             $tesita = mysqli_query($connect, $liste) or exit(mysqli_error($connect));        
                             $colonne = mysqli_num_fields($tesita); //col        
                             $ligne = mysqli_num_rows($tesita); //rows

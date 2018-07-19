@@ -124,6 +124,15 @@
                 width: 150px;
                 /*text-align: center;*/
             }
+            tr.test:hover {background-color: #19a3ff;}
+            /*tr.test:nth-child(odd) {background-color: #bed4f7;}*/
+            /*tr.test:nth(even) {background-color: #ffffff;}*/
+
+            /* Cells in even rows (2,4,6...) are one color */        
+            tr.test:nth-child(even) td { background: #F1F1F1; } 
+
+            /* Cells in odd rows (1,3,5...) are another (excludes header cells)  */        
+            tr.test:nth-child(odd) td { background: #FEFEFE; }
             
 /*            table{
                 border-collapse: collapse;
@@ -591,7 +600,7 @@
                                         $colonne = mysqli_num_fields($reqSem); //col                                        
                                         
                                         while($row = mysqli_fetch_array($reqSem, MYSQLI_BOTH)){
-                                            echo '<tr>';
+                                            echo '<tr class="test">';
                                                 for($j=0; $j < $colonne ; $j++){
                                                     switch($j){
                                                         case 0: 
@@ -650,7 +659,7 @@
                                         $reqSem = mysqli_query($connect, $reqSemaine) or exit(mysqli_error($connect));
                                         $colonne = mysqli_num_fields($reqSem); //col
                                         while($row = mysqli_fetch_array($reqSem, MYSQLI_BOTH)){
-                                            echo '<tr>';
+                                            echo '<tr class="test">';
                                                 for($j=0; $j < $colonne ; $j++){
                                                     switch($j){
                                                         case 0: 
@@ -709,7 +718,7 @@
                                         $reqSem = mysqli_query($connect, $reqSemaine) or exit(mysqli_error($connect));
                                         $colonne = mysqli_num_fields($reqSem); //col
                                         while($row = mysqli_fetch_array($reqSem, MYSQLI_BOTH)){
-                                            echo '<tr>';
+                                            echo '<tr class="test">';
                                                 for($j=0; $j < $colonne ; $j++){
                                                     switch($j){
                                                         case 0: 

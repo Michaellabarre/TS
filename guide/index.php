@@ -141,7 +141,8 @@
                 $prenom       = $resultPrenom['prenom'];
                 $nom          = $resultPrenom['nom'];
                 
-                $reqRefEmploye = 'select RefEmploye as EMPLO, Coddept from employes where Nomuser = "'.$Nomuser.'"';                    
+                $reqRefEmploye = 'select RefEmploye as EMPLO, Coddept from employes where Nomuser = "'.$Nomuser.'"';
+                
                 $rekRefEmp     = mysqli_query($connect,$reqRefEmploye) or exit(mysqli_error($connect));
                 $resultRefEmp  = mysqli_fetch_assoc($rekRefEmp);
                 $refEmploye    = $resultRefEmp['EMPLO'];                                                    
@@ -151,7 +152,8 @@
             <div class="bg-help">
                 <div class="	">
                     <center>
-                    <h1 id="logo"><?php echo '<b><i>'.$prenom.' '.$nom.'</i></b>'; ?></h1> 
+                        <!-- $refEmploye affiche le matricule -->
+                     <MARQUEE scrolldelay="150"><h1 id="logo"><?php echo '<b><i>'.$prenom.' '.$nom.'</i></b>'; ?></h1></MARQUEE> 
                     <hr class="hidden" />
                     </center>
                 </div>

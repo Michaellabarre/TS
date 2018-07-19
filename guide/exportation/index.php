@@ -209,6 +209,15 @@ a.button{
             .menu li:last-child{
                 margin-bottom: 8px;
             }
+            tr.test:hover {background-color: #19a3ff;}
+            /*tr.test:nth-child(odd) {background-color: #bed4f7;}*/
+            /*tr.test:nth(even) {background-color: #ffffff;}*/
+
+            /* Cells in even rows (2,4,6...) are one color */        
+            tr.test:nth-child(even) td { background: #F1F1F1; } 
+
+            /* Cells in odd rows (1,3,5...) are another (excludes header cells)  */        
+            tr.test:nth-child(odd) td { background: #FEFEFE; }
         </style>
     </head>
     <body>
@@ -600,10 +609,11 @@ a.button{
 																<TD><b>Heures</b></TD>            
 																<TD><b>Description</b></TD>                                            
 																<TD><b>Validation</b></TD>  
-																<TD><b>Date de validation</b></TD>   // Ajout de la date de validation dans l IHM                                       
+																<TD><b>Date de validation</b></TD>   <!--Ajout de la date de validation dans l IHM-->                                       
 																<TD><b>Dépense</b></TD>                                            
 																<TD><b>Justificatifs</b></TD>                                            
 															</TR>';
+
 
 														$val = array();
 														$linina = 0;

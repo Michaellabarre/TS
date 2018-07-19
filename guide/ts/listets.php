@@ -561,7 +561,7 @@
                                 <TD><font color=""><b>Description</b></font></TD>   
                                 <TD><font color=""><b>Validation</b></font></TD>
                                 <TD><font color=""><b>Date de validation</b></font></TD>     
-                                <TD><font color=""><b>Dépense</b></font></TD>                                            
+                                <TD><font color=""><b>D&eacute;pense</b></font></TD>                                            
                                 <TD><font color=""><b>Justificatifs</b></font></TD>                                            
                             </TR>';
 
