@@ -27,8 +27,10 @@
         <link type="text/css" rel="stylesheet" href="../helpers/media/elements.css?v=1783" />
         <link type="text/css" rel="stylesheet" href="../../includes/db_connect.php"/>
 
-
-
+        <link type="text/css" rel="stylesheet" href="../helpers/media/style.css?v=1783"/>
+        <!-- <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> -->
+        <!-- <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css"> -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 
         <!-- CDN Css -->
 
@@ -39,10 +41,12 @@
 
         <!-- helper libraries -->
         <script src="../helpers/jquery-1.9.1.min.js" type="text/javascript"></script>
-		<link   type="text/css" rel="stylesheet" href="../helpers/media/style.css?v=1783"/>
+		
 
         <!-- daypilot libraries -->
         <script src="../js/daypilot-all.min.js?v=1783" type="text/javascript"></script>
+        <!-- <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script> -->
+        <!-- <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script> -->
 
         <style type="text/css">
 		a.button{
@@ -126,22 +130,45 @@
             table{
                 border-collapse: collapse;                   
             }
-            #echeance td{
+            /*#echeance td{
                 border: 1.5px solid #D8D8D8;    
                 line-height: 150%;
                 border-style: dotted;                                    
-            }
+            }*/
 
        
-            tr.test:hover {background-color: #19a3ff;}
+            /*tr.test:hover {background-color: #19a3ff;}
             /*tr.test:nth-child(odd) {background-color: #bed4f7;}*/
-            /*tr.test:nth(even) {background-color: #ffffff;}*/
+            /*tr.test:nth(even) {background-color: #ffffff;}
 
             /* Cells in even rows (2,4,6...) are one color */        
-            tr.test:nth-child(even) td { background: #F1F1F1; } 
+            tr.test:nth-child(even) td { background: #D0E4F5; } 
 
             /* Cells in odd rows (1,3,5...) are another (excludes header cells)  */        
-            tr.test:nth-child(odd) td { background: #FEFEFE; } 
+            tr.test:nth-child(odd) td { background: #ffffea; } 
+
+            /*#echeance {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#echeance td, #echeance th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#echeance tr:nth-child(even){background-color: #f2f2f2;}
+
+#echeance tr:hover {background-color: #ddd;}
+
+#echeance th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}*/
 
 
             
@@ -202,6 +229,23 @@
                 width: 0px;
                 overflow: no-display;
             }*/
+
+            .progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+}
+
+.progress-bar {
+  height: 8px;
+  background: #4caf50;
+  width: 0%;
+}
+
+tr.up
+{
+    text-transform: uppercase;
+}
             
         </style>
 	<!-- /head -->
@@ -233,6 +277,7 @@
             </div>
         </div>   
         <a href="../../logout.php" class="button" title="Deconnexion"><span class="delete">Deconnexion</span></a>
+       
         <?php
             $req     = 'select Profil as profily from employes '
                 . 'where Nomuser = "'.$Nomuser.'"';
@@ -542,17 +587,40 @@
                                     
                                         
                                     
-									<table cellspacing="0" cellpadding="0" border="1" width="1300px" style=" border-color: blue" id="echeance">
-                                        <tr>
+									<table cellspacing="0" cellpadding="0" border="1" width="1300px" style=" border-color: none" id="echeance">
+                                        <!-- <tr>
                                             <td style="width:145px"><b><center>Société</center></b></td>
                                             <td style="width:74px"><b><center>Code</center></b></td>
                                             <td style="width:230px"><b><center>Adresse</center></b></td>                                    
                                             <td style="width:195px"><center><b>Contact</b></center></td>
                                             <td style="width:88px"><b><center>Téléphone</center></b></td>
                                             <td style="width:121px"><center><b>Mobile</b></center></td>
-                                            <td style="width:232px"><center><b>Email</b></center></td>
+                                            <td style="width:232px"><center><b>Email</b></center></td> -->
                                             <!--<td class="site"><center><b>Site Web</b></center></td>-->
-                                        </tr>
+                                        <!-- </tr> -->
+                                        <div class="progress-container">
+                                            <div class="progress-bar" id="myBar"></div>
+                                        </div>
+                                        <tr class="up">
+                                            <th style="width:145px"><b>Société</b></th>
+                                            <th style="width:74px">Code</th>
+                                            <th style="width:230px">Adresse</th>
+                                            <th style="width:195px">Contact</th>
+                                            <th style="width:88px">Téléphone</th>
+                                            <th style="width:121px">Mobile</th>
+                                            <th style="width:232px">Email</th>
+                                         </tr>
+                                        <!-- <thead>
+                                             <tr>
+                                                <th>Month</th>
+                                                <th>Savings</th>
+                                                <th>Savings</th>
+                                                <th>Savings</th>
+                                                <th>Savings</th>
+                                                <th>Savings</th>
+                                                <th>Savings</th>
+                                            </tr>
+                                        </thead> -->
                                     </table>
                                    
                                 </td>
@@ -561,32 +629,38 @@
                                 <td>
                                     <!--<div style="width:1120px; height:454px; overflow:auto;">-->
                                     <div style="width:1319px; height:446px; overflow:auto;">
-                                    <table cellspacing="0" cellpadding="0" border="1" width="1300px" style=" border-color: black" id="echeance">
+                                    <table cellspacing="0" cellpadding="0" border="1" width="1300px" style=" border-color: none" id="echeance">
                                         <!--<table cellspacing="0" cellpadding="0" border="0" width="1100px" id="echeance">--> 
                                             <?php
                                             while($row = mysqli_fetch_array($tesita, MYSQLI_BOTH)){
                                                 echo '<tr class="test">';
                                                     for($j=0; $j < $colonne ; $j++){
                                                         switch ($j){
-                                                            case 0: echo '<td style="max-width:145px;word-wrap: break-word"><center>'.$row[$j].'</center></td>';
+                                                            case 0: echo '<td style="max-width:145px;word-wrap: break-word"><b><center>'.$row[$j].'</center></b></td>';
                                                                 break;
-                                                            case 1: echo '<td style="max-width:74px;word-wrap: break-word"><center>'.$row[$j].'</center></td>';
+                                                            case 1: echo '<td style="max-width:74px;word-wrap: break-word"><b><center>'.$row[$j].'</center></b></td>';
                                                                 break;                                                                
-                                                            case 2: echo '<td style="max-width:230px;word-wrap: break-word"><center>'.$row[$j].'</center></td>';
+                                                            case 2: echo '<td style="max-width:230px;word-wrap: break-word"><b><center>'.$row[$j].'</center></b></td>';
                                                                 break;
-                                                            case 3: echo '<td style="max-width:195px;word-wrap: break-word"><center>'.$row[$j].'</center></td>';
+                                                            case 3: echo '<td style="max-width:195px;word-wrap: break-word"><b><center>'.$row[$j].'</center></b></td>';
                                                                 break;
-                                                            case 4: echo '<td style="max-width:88px;word-wrap: break-word"><center>'.$row[$j].'</center></td>';
+                                                            case 4: echo '<td style="max-width:88px;word-wrap: break-word"><b><center>'.$row[$j].'</center></b></td>';
                                                                 break;
-                                                            case 5: echo '<td style="max-width:121px;word-wrap: break-word"><center>'.$row[$j].'</center></td>';
+                                                            case 5: echo '<td style="max-width:121px;word-wrap: break-word"><b><center>'.$row[$j].'</center></b></td>';
                                                                 break;
-                                                            case 6: echo '<td style="max-width:232px;word-wrap: break-word"><center>'.$row[$j].'</center></td>';
+                                                            case 6: echo '<td style="max-width:232px;word-wrap: break-word"><b><center>'.$row[$j].'</center></b></td>';
                                                                 break;
 //                                                            case 7: echo '<td class="site">'.$row[$j].'</td>';
 //                                                                break;
                                                         }
                                                     }
                                                 echo '</tr>';
+                                                }
+                                            ?>
+
+                                            <?php
+                                                foreach ($data as $key => $value) {
+                                                    # code...
                                                 }
                                             ?>
                                         </table>
@@ -603,7 +677,22 @@
             </div>                        
         </div>
     </div>  
+<script type="text/javascript">
+    $(document).ready( function () {
+    $('#echeance').DataTable();
+} );
+</script>
+<script>
+// When the user scrolls the page, execute myFunction 
+window.onscroll = function() {myFunction()};
 
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+</script>
 <!--    <script type="text/javascript">
         $(document).ready(function() {
           var url = window.location.href;

@@ -117,6 +117,15 @@
                 float: right;
                 margin-right: 25px;
             }
+            tr.test:hover {background-color: #19a3ff;}
+            /*tr.test:nth-child(odd) {background-color: #bed4f7;}*/
+            /*tr.test:nth(even) {background-color: #ffffff;}*/
+
+            /* Cells in even rows (2,4,6...) are one color */        
+            tr.test:nth-child(even) td { background: #F1F1F1; } 
+
+            /* Cells in odd rows (1,3,5...) are another (excludes header cells)  */        
+            tr.test:nth-child(odd) td { background: #FEFEFE; } 
         </style>
     </head>
     <body>
@@ -727,11 +736,13 @@
                                     <!--<a id="export" href="./exportMission.php" />Export sous Excel</a>-->        
                                     <table border = "1">
                                         <thead>
-                                            <tr>
+                                            <tr class="test">
                                                 <td><center><b>Département</b></center></td>
                                                 <td><center><b>Code Projet</b></center></td>
                                                 <td><center><b>Code Client</b></center></td>                                                
-                                                <td><center><b>Nom Projet</b></center></td>                                                
+                                                <td><center><b>Nom Projet</b></center></td>
+                                              <!--  <td><center><b>Facture</b></center></td> -->
+                                                <!--  <td><center><b>Type</b></center></td>  -->                                               
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -754,7 +765,9 @@
                                                         echo('<td class="fed">'.$result->Client.'</td>'
                                                         );                                                                                                                                                            
                                                         echo(
-                                                            '<td class="fed">'.$result->nomProjet.'</td>'                                                            
+                                                            '<td class="fed">'.$result->nomProjet.'</td>'
+
+                                                                                                         
                                                             . '</tr>'                                    
                                                         ) ;
                                                     }

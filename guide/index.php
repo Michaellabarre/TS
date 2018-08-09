@@ -28,6 +28,7 @@
         <link type="text/css" rel="stylesheet" href="helpers/media/layout.css?v=1783" />    
         <link type="text/css" rel="stylesheet" href="helpers/media/elements.css?v=1783" />  
 		 <link   type="text/css" rel="stylesheet" href="helpers/media/style.css?v=1783"/>
+         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 
 
         <style>
@@ -212,8 +213,8 @@
 <li><a href="./ts/validts.php">VALIDE TS</a></li>
 <li><a href="./alert/index.php">ALERT</a>
 	<ul>
-		<li><a href="./alert/alertcontrat.php"><b>Contrat non signé</b> <img src="../images/erreur.gif" border="0" width="15" height="15" align="absmiddle"></a></li>
-		<li><a href="./alert/alertfacturation.php"><b>Alerte Facturation</b><img src="../images/Warning.gif" border="0" width="15" height="15" align="absmiddle"></a></li>
+		<li><a href="./alert/alertcontrat.php"><b>Contrat non signé</b> <img src="images/erreur.gif" border="0" width="15" height="15" align="absmiddle"></a></li>
+		<li><a href="./alert/alertfacturation.php"><b>Alerte Facturation</b><img src="images/Warning.gif" border="0" width="15" height="15" align="absmiddle"></a></li>
 	</ul>
 </li>
 <li><a href="./exportation/index.php">EXPORTATION</a></li>
@@ -500,7 +501,9 @@
             }
             ?>
 
-            <div id="container" >                
+            <div id="container" >
+
+                            
                 <!--<div id="content">-->
                     <div>                
                         <!-- bottom -->                            
@@ -512,17 +515,20 @@
                         <center>
                         <?php
                         if($refEmploye == '368'){                                                        
-                            ?>                            
+                            ?>    
+                            <!-- Modif Heritiana -->                        
                             <object data="dodo.png" type="image/png" title="dodo" id="dodo" style=" margin-top: 290px;float: left;margin-left: 300px"></object>
-                            <a href='Guide.pdf' target="_blank"><object data="gu.png" type="image/png" title="Guide Utilisateur" id="gu" style=" margin-top: 100px;"></object></a>
+                            <a href='Guide.pdf' target="_blank"><object data="user-guide-icon.png" type="image/png" title="Guide Utilisateur" id="gu" style=" margin-top: 100px;"></object></a>
+
                             <?php
                         }
                         
                         if($refEmploye != '368'){
                         ?>                                                    
-                            <a href='Guide.pdf' target="_blank"><object data="gu.png" type="image/png" title="Guide Utilisateur" id="gu" style=" margin-top: 150px"></object></a>
+                            <a href='Guide.pdf' target="_blank"><object data="user-guide-icon.png" type="image/png" title="Guide Utilisateur" id="gu" style=" margin-top: 150px"></object></a>
                             <!--<object data="Guide.pdf" type="application/pdf" title="guide" width="8000px" height="8800px"></object>-->
-                            <!--<embed src="Guide.pdf" width="650px" height="500px">-->                                                                                                                                        
+                            <!--<embed src="Guide.pdf" width="650px" height="500px">-->    
+                            <!-- Fin modif Heritiana -->                                                                                                                                    
                         <?php
                         }
                         
@@ -538,10 +544,14 @@
                         }
                         ?>
                         </center>
+                        <div style="text-align:center;padding:1em 0;"> <h4><a style="text-decoration:none;" href="https://www.zeitverschiebung.net/fr/city/1070940"><span style="color:gray;">Heure actuelle </span><!-- <br /> --> Antananarivo, Madagascar</a></h4> <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=fr&size=small&timezone=Indian%2FAntananarivo" width="100%" height="90" frameborder="0" seamless></iframe> </div>
                     </div>
                 <!--</div>-->
             </div>
         </div>
+
+        <!-- Exemple font awesome -->
+        <!-- <i class="fa fa-book-open fa-5x"></i> -->
         
 <!--    <script type="text/javascript">
         $(document).ready(function() {

@@ -1195,6 +1195,24 @@ $(function() {
                                                                                             echo '</select>
                                                                                         </td>';
                                                                                     }
+                                                                                    else if($coddepa === 'RH')
+                                                                                    {
+                                                                                        echo '<td width=0px>
+                                                                                            <select name="description[]" id="description[]" onchange="saisieDesc(this);" style="width:470px;height:22px;border-color: transparent;">
+                                                                                                <option selected></option>
+                                                                                                <optgroup label="Saisie Manuelle">
+                                                                                                    <option>Saisir Manuellement</option>
+                                                                                                </optgroup>
+                                                                                                <optgroup label="Choisir dans la liste déroulante">';
+                                                                                                    $reqLigneRHC = "select concat(CodeL, ' - ', DescL) as criptdesc from lignerhc order by CodeL;";
+                                                                                                    $resLigneRHC = mysqli_query($connect, $reqLigneRHC);
+                                                                                                    while($rowRHC = mysqli_fetch_array($resLigneRHC, MYSQLI_BOTH)){
+                                                                                                        echo '<option value="'.$rowRHC[0].'">'.$rowRHC[0].'</option>';
+                                                                                                    }
+                                                                                                echo '</optgroup>';                                                                                
+                                                                                            echo '</select>
+                                                                                        </td>';
+                                                                                    }
                                                                                     else{
                                                                                         echo '<td width=0px><input id="description[]" name="description[]" style="width:470px"/></td>';
                                                                                     }

@@ -118,6 +118,15 @@
                 border: none;
                 border-style: none;
             }
+            tr.test:hover {background-color: #19a3ff;}
+            /*tr.test:nth-child(odd) {background-color: #bed4f7;}*/
+            /*tr.test:nth(even) {background-color: #ffffff;}*/
+
+            /* Cells in even rows (2,4,6...) are one color */        
+            tr.test:nth-child(even) td { background: #F1F1F1; } 
+
+            /* Cells in odd rows (1,3,5...) are another (excludes header cells)  */        
+            tr.test:nth-child(odd) td { background: #FEFEFE; } 
         </style>
     </head>
     <body>
@@ -567,7 +576,8 @@
 
                         $val = array();
                         $linina = 0;
-                        while($row = mysqli_fetch_array($resTSEx, MYSQLI_BOTH)){               
+                        while($row = mysqli_fetch_array($resTSEx, MYSQLI_BOTH)){   
+                        echo '<tr class="test">';            
                             for($j=0; $j < $colonne ; $j++){                                   
                                 if($j == 0){
                                     $val[$linina] = array($row[$j]);

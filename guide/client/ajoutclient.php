@@ -20,7 +20,8 @@
         <title>Ajout Nouveau Client</title>
         <link rel="shortcut icon" href="../../logo/fthm.ico" type="image/x-icon" />
             <!-- head -->
-        <meta charset="utf-8">
+        <!-- <meta charset="utf-8"> -->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <!-- demo stylesheet -->
         <link type="text/css" rel="stylesheet" href="../helpers/demo.css?v=1783" />
         <link type="text/css" rel="stylesheet" href="../helpers/media/layout.css?v=1783" />
@@ -476,7 +477,7 @@
                                             <table>
                                                 <tr>
                                                     <td><label for="RefClient">Code </label></td>
-                                                    <td><input type="text" style=" width: 200px" name="RefClient" id="RefClient" onblur="verifChampNul(this); VerifCodeCli(this);" /></td>
+                                                    <td><input type="text" style=" width: 200px" name="RefClient" id="RefClient" onblur="verifChampNul(this); VerifCodeCli(this);" maxlength="6" minlength="3" /></td>
                                                 </tr>
                                                 <tr>
                                                     <td><label id="labNomSociete" for="NomSociete" >Nom</label></td>
@@ -499,8 +500,14 @@
                                                 <!-- Ajout du champ Payeur -->
                                                 <tr>
                                                     <td><label id="labpayeur" for="payeur" > <i>Payeur </i></label></td>
-                                                    <td><textarea type="text" name="Payeur" id="Payeur"><?php echo($result->payeur)?></textarea></td>
+                                                    <td><textarea type="text" name="Payeur" id="Payeur" oninput="myFunction()"><?php echo($result->payeur)?></textarea></td>
                                                     </tr>
+
+                                                
+                                                                
+
+                                                                
+                                                        
                                                 
                                                 <tr>
                                                     <td><label id="labCodePostal" for="CodePostal">Groupe </label></td>
@@ -532,7 +539,7 @@
                                                 </tr>
                                                 
                                                 <tr>
-                                                    <td><label id="labNumeroTel" for="NumeroTel">N° de t&eacute;l&eacute;phone </label></td>
+                                                    <td><label id="labNumeroTel" for="NumeroTel">N° de téléphone </label></td>
                                                     <td><textarea type="text" name="NumeroTel" id="NumeroTel" ></textarea></td>
                                                 </tr>
                                                 <tr>
@@ -615,19 +622,30 @@
                                                     <td><label id="labstat" for="stat" > STAT</label></td>
                                                     <td><textarea type="text" name="stat" id="stat" readonly="true" placeholder="Exemple:11111 11 1111 11111"></textarea></td>
                                                 </tr>
+                                                <!-- Modif Heritiana LABARRE -->
                                                 <tr>
                                                     <td><label id="labnif" for="nif" > N.I.F </label></td>
-                                                    <td><textarea type="text" name="nif" id="nif" readonly="true"  placeholder="Exemple:1111111111"></textarea></td>
+                                                    <td><textarea type="text" name="nif" id="nif" readonly="true"  placeholder="Exemple:1111111111"oninput="myFunction()" maxlength="20"></textarea><i><p id="demo"></p></i></td>
                                                 </tr>
+
+                                                <script>
+                                                    function myFunction() {
+                                                     var x = document.getElementById("nif").value;
+                                                     var y = document.getElementById("rcs").value;
+                                                    document.getElementById("demo").innerHTML = "20 caractères max." ;
+                                                    document.getElementById("demo1").innerHTML = "20 caractères max." ;
+
+                                                                }
+                                                </script>
                                                 <tr>
                                                     <td><label id="labcif" for="cif" > C.I.F </label></td>
                                                     <td><textarea type="text" name="cif" id="cif" readonly="true" placeholder="Exemple:1111111/DGI-B du jj/mm/aaaa"></textarea></td>
                                                 </tr>
                                                 <tr>
                                                     <td><label id="labrcs" for="rcs" > R.C.S </label></td>
-                                                    <td><textarea type="text" name="rcs" id="rcs" readonly="true" placeholder="Exemple:1111 B 11111"></textarea></td>
+                                                    <td><textarea type="text" name="rcs" id="rcs" readonly="true" placeholder="Exemple:1111 B 11111" oninput="myFunction()" maxlength="20"></textarea><i><p id="demo1" style="color:red;"></p></i></td>
                                                 </tr>
-												
+												<!-- Fin Modif Heritiana LABARRE -->
 												
 												
 											<!--	BALANCE AGEE
@@ -754,7 +772,8 @@
                             </script>
                             <?php
 //                        echo '<br/><font size="0.5em">Erreur: '.mysqli_error($connect).'</font>';
-                        echo '<br/><font color="red"; size="4px"><center><img src="../../images/Warning.gif"/> Désolé, le code Client existe déjà!!!</center></font>';
+                        // echo '<br/><font color="red"; size="4px"><center><img src="../../images/Warning.gif"/> Désolé, le code Client existe déjà!!!</center></font>';
+                            echo '<br/><font color="red"; size="4px"><center><img src="../../images/Warning.gif"/>Oups!!! Vueillez vérifier les informations que vous avez entré car il y a une erreur!</center></font>';
                         echo '</b></p></div>';            
                         $mysqli->query("ROLLBACK");exit(1);
                         exit(mysqli_error($connect));

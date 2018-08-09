@@ -2260,7 +2260,8 @@ $(function() {
                                     </script>
 
                                     <form name="modifMission" id="modifMission" method="post" onsubmit="return verifAll(this)">                                     
-                                        <span id="spann" style="float: right; padding: 8px;"><input type="submit" disabled="disabled" name="modifier" id="modifier" value="Modifier" onmouseover="this.disabled='';"/></span>
+                                        <!-- <span id="spann" style="float: right; padding: 8px;"><input type="submit" disabled="disabled" name="modifier" id="modifier" value="Modifier" onmouseover="this.disabled='';"/></span> -->
+                                        <span id="spann" style="float: right; padding: 8px;"><input type="submit" name="modifier" id="modifier" value="Modifier"/></span>
                                         <!--<input type="submit" name="modifier" id="modifier" value="Modifier" />-->
                                         <br/>
                                             

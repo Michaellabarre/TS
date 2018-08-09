@@ -30,6 +30,10 @@
         <!-- helper libraries -->
         <script src="../helpers/jquery-1.9.1.min.js" type="text/javascript"></script>   
 		<link   type="text/css" rel="stylesheet" href="../helpers/media/style.css?v=1783"/>
+
+        <script type="text/javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+        <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script> -->
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
         <style type="text/css">
   a.button{
 			background: blue url(../images/button.gif);
@@ -139,10 +143,20 @@
             /*tr.test:nth(even) {background-color: #ffffff;}*/
 
             /* Cells in even rows (2,4,6...) are one color */        
-            tr.test:nth-child(even) td { background: #F1F1F1; } 
-
+            /*tr.test:nth-child(even) td { background: #F1F1F1; } */
+            tr.test:nth-child(even) td { background: #D0E4F5; }
             /* Cells in odd rows (1,3,5...) are another (excludes header cells)  */        
             tr.test:nth-child(odd) td { background: #FEFEFE; } 
+
+            #myInput {
+  background-image: url('TS/images/search-icon-png-8.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
         </style>
 	<!-- /head -->
     </head>
@@ -329,7 +343,8 @@
                           //          . 'and actif = 0 '
                            //         . 'ORDER BY RefEmploye ASC;';
 //                            affisazy($liste);
-                            $liste ='select RefEmploye as Code, Prenom as Prénom, NomFamille as Nom, Titre FROM employes '
+//                            
+                           /* $liste ='select RefEmploye as Code, Prenom as Prénom, NomFamille as Nom, Titre FROM employes '
                                     . 'where RefEmploye like "%E0%" or RefEmploye not like "%E0%" and actif = 0 '
                                     . 'and RefEmploye not in ("Z05", "Z06", "Z07", "ZA1", "ZA2", "ZA3", "ZZZ", "ITADMIN") '
                                     . 'ORDER BY RefEmploye ASC;'; 
@@ -337,14 +352,16 @@
                             $colonne = mysqli_num_fields($tesita); //col        
                             $ligne = mysqli_num_rows($tesita); //rows
                             
-                            ?>
+                            */?>
 
                             <!-- <?php
                                 //$liste = 'SELECT RefEmploye as Code, Prenom as Prénom, NomFamille as Nom, Titre FROM employes;'
                             ?> -->
                         
-                        <div>
-                            <table cellspacing="0" cellpadding="0" border="0" id="echeance" width="820px"> 
+                        <!-- <div> -->
+                            <!-- modif heritiana -->
+                            <!-- <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name"> -->
+                            <!-- <table cellspacing="0" cellpadding="0" border="0" id="echeance" width="820px"> 
                                 <tr>
                                     <td>                                        
                                         <table cellspacing="0" cellpadding="0" border="1" width="800px"  id="echeance">
@@ -352,22 +369,22 @@
                                                 <td class="code"><b><center>Code </center></b></td>
                                                 <td class="prenom"><b><center>Prénom</center></b></td>                                                                                   
                                                 <td class="nom"><b><center>Nom</center></b></td>
-                                                <td class="titre"><b><center>Département / Fonction</center></b></td>
-                                                <!-- <td class="titre"><b><center>Profil</center></b></td> -->                                                
+                                                <td class="titre"><b><center>Département / Fonction</center></b></td> -->
+                                                <!-- <td class="titre"><b><center>Profil</center></b></td>                                                
                                             </tr>
                                         </table>
                                     </td>
-                                </tr>
-                                <tr>
+                                </tr> -->
+                                <!-- <tr>
                                     <td>
                                         <div style="height:450px; overflow-y: auto; overflow-x: hidden" width="820px"> 
-                                            <table cellspacing="0" cellpadding="0" border="0" id="echeance" width="800px">
+                                            <table cellspacing="0" cellpadding="0" border="0" id="echeance" width="800px"> -->
                                                 <?php
-                                                while($row = mysqli_fetch_array($tesita, MYSQLI_BOTH)){
+                                                /*while($row = mysqli_fetch_array($tesita, MYSQLI_BOTH)){
                                             echo '<tr class="test">';
                                                 for($j=0; $j < $colonne ; $j++){
                                                     switch ($j){
-                                                        case 0: echo '<td class="code"><center>'.$row[$j].'</center></td>';
+                                                        case 0: echo '<td class="code"><b><center>'.$row[$j].'</center></b></td>';
                                                             break;
                                                         case 1: echo '<td class="prenom"><center>'.$row[$j].'</center></td>';
                                                             break;
@@ -382,19 +399,92 @@
                                                 echo '</tr>';
                                         }
 								//FIN LISTER LES CLIENTS DANS LA BASE VIA REQUETES ET L'AFFICHER SOUS FORME DE TABLEAU HTML
-                                                ?>
-                                            </table>
+                                                */?>
+                                           <!--  </table>
                                         </div>
                                     </td>
                                 </tr>                                                                                                                                                                                                                                                                
                             </table>                                             
-                        </div> 
+                        </div>  -->
                     </center>
                     <!-- bottom -->
                 </div>
               
             </center>
         </div>
+        <table id="example" class="display" style="width:100%">
+        <thead>
+            <tr>
+                <th>Code</th>
+                <th>Prénom</th>
+                <th>Nom</th>
+                <th>Département / Fonction</th>
+                <!-- <th>Start date</th>
+                <th>Salary</th> -->
+            </tr>
+        </thead>
+        <tbody>
+
+            <?php 
+                // $req='SELECT RefEmploye as Code, Prenom as Prénom, NomFamille as Nom, Titre FROM employes';
+                // $essai = mysqli_query($connect, $req) or exit(mysqli_error($connect));
+                // $row = mysqli_fetch_array($essai, MYSQLI_BOTH);
+                // echo '<tr>';
+                // foreach($row as $ii)
+                // {
+                //      echo '<td>'.$ii->Code.'</td>';
+                //      echo '<td>'.$ii->Prénom.'</td>';
+                //      echo '<td>'.$ii->Nom.'</td>';
+                //      echo '<td>'.$ii->Titre.'</td>';
+                // }
+                // echo '</tr>';
+
+            ?>
+            <tr>
+                <td>Tiger Nixon</td>
+                <td>System Architect</td>
+                <td>Edinburgh</td>
+                <td>61</td>
+                <!-- <td>2011/04/25</td>
+                <td>$320,800</td> -->
+            </tr>
+            
+            <tr>
+                <td>Shad Decker</td>
+                <td>Regional Director</td>
+                <td>Edinburgh</td>
+                <td>51</td>
+                <!-- <td>2008/11/13</td>
+                <td>$183,000</td> -->
+            </tr>
+            <tr>
+                <td>Michael Bruce</td>
+                <td>Javascript Developer</td>
+                <td>Singapore</td>
+                <td>29</td>
+                <!-- <td>2011/06/27</td>
+                <td>$183,000</td> -->
+            </tr>
+            <tr>
+                <td>Donna Snider</td>
+                <td>Customer Support</td>
+                <td>New York</td>
+                <td>27</td>
+                <!-- <td>2011/01/25</td>
+                <td>$112,000</td> -->
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Office</th>
+                <th>Age</th>
+                <!-- <th>Start date</th>
+                <th>Salary</th> -->
+            </tr>
+        </tfoot>
+    </table>
     </div>  
 
 <!--    <script type="text/javascript">
@@ -410,7 +500,54 @@
             <p>
                 <span>Vous n’avez pas les autorisations n&eacute;cessaires pour acc&eacute;der &agrave; cette page.</span> Please <a href="../../index.php">login</a>.
             </p>
-        <?php endif; ?>                     	    
+        <?php endif; ?>  
+
+
+        <!-- Script recherche sur ancien tableau mais pour matricule uniquement    -->
+        <!-- <script>
+function myFunction() {
+  var input, filter, table, tr, td, i;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("echeance");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+</script> -->
+            <script type="text/javascript">
+                $(document).ready(function() {
+    // Setup - add a text input to each footer cell
+    $('#example tfoot th').each( function () {
+        var title = $(this).text();
+        $(this).html( '<input type="text" placeholder="Search '+title+'" />' );
+    } );
+ 
+    // DataTable
+    var table = $('#example').DataTable();
+ 
+    // Apply the search
+    table.columns().every( function () {
+        var that = this;
+ 
+        $( 'input', this.footer() ).on( 'keyup change', function () {
+            if ( that.search() !== this.value ) {
+                that
+                    .search( this.value )
+                    .draw();
+            }
+        } );
+    } );
+} );
+            </script>    	    
     </body>
 </html>
 
