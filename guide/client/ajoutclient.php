@@ -773,7 +773,7 @@
                             <?php
 //                        echo '<br/><font size="0.5em">Erreur: '.mysqli_error($connect).'</font>';
                         // echo '<br/><font color="red"; size="4px"><center><img src="../../images/Warning.gif"/> Désolé, le code Client existe déjà!!!</center></font>';
-                            echo '<br/><font color="red"; size="4px"><center><img src="../../images/Warning.gif"/>Oups!!! Vueillez vérifier les informations que vous avez entré car il y a une erreur!</center></font>';
+                            echo '<br/><font color="red"; size="4px"><center><img src="../../images/Warning.gif"/>Oups!!! Veuillez vérifier les informations que vous avez entré car il y a une erreur!</center></font>';
                         echo '</b></p></div>';            
                         $mysqli->query("ROLLBACK");exit(1);
                         exit(mysqli_error($connect));
@@ -960,7 +960,7 @@
                             && NomContact && Fonction && typeClient)
                             return true;
                         else{
-                            alert("Veuillez remplir correctement tous les champs.");
+                            alert("Veuillez remplir correctement tous les champs...");
                             return false;
                         }
                     }
@@ -972,7 +972,7 @@
                         && NomContact && Fonction && typeClient)
                         return true;
                         else{
-                            alert("Veuillez remplir correctement tous les champs.");
+                            alert("Veuillez remplir correctement tous les champs...");
                             return false;
                         }
                     }
