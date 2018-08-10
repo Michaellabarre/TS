@@ -30,6 +30,10 @@
         <!-- helper libraries -->
         <script src="../helpers/jquery-1.9.1.min.js" type="text/javascript"></script>
 		<link   type="text/css" rel="stylesheet" href="../helpers/media/style.css?v=1783"/>
+
+        <script type="text/javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+        <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script> -->
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
         <style type="text/css">
  a.button{
 			background: blue url(../images/button.gif);
@@ -309,7 +313,7 @@
                     </div>-->     
                     <center>
                         <!-- ENTETE DU TABLEAU HTML -->
-                        <div>
+                        <!-- <div>
                         <table cellspacing="0" cellpadding="0" border="0" id="echeance" width="820px" border = "1"> 
                             <tr>
                                 <td>
@@ -321,47 +325,107 @@
                                             <td class="titre"><b><center>Département</center></b></td>                                                                
                                         </tr>
                                     </table>
-                                </td>
+                                </td> -->
 								<!-- FIN ENTETE DU TABLEAU HTML -->
-                            </tr>
+                        <!--     </tr>
                             <tr>
                                 <td>
                                     <div style="height:450px; overflow-y: auto; overflow-x: hidden" width="820px"> 
-                                            <table cellspacing="0" cellpadding="0" border="0" id="echeance" width="800px">
+                                            <table cellspacing="0" cellpadding="0" border="0" id="echeance" width="800px"> -->
                                             <?php
 											// AFFICHAGE DES RESULTATS DE LA LISTE DES CONS. INTERNES VIA APPEL SQL
 											
-                                            $liste = 'select RefEmploye as Code, Prenom as Prénom, NomFamille as Nom, Titre FROM employes '
-                                                    . 'where RefEmploye not like "%E0%" and actif = 0 '
-                                                    . 'and RefEmploye not in ("Z05", "Z06", "Z07", "ZA1", "ZA2", "ZA3", "ZZZ") '
-                                                    . 'ORDER BY RefEmploye ASC;';                                                                                
-                                            $tesita = mysqli_query($connect, $liste) or exit(mysqli_error($connect));
-                                            $colonne = mysqli_num_fields($tesita); //col        
-                                            $ligne = mysqli_num_rows($tesita); //rows  
-                                            while($row = mysqli_fetch_array($tesita, MYSQLI_BOTH)){
-                                            echo '<tr class="test">';
-                                                for($j=0; $j < $colonne ; $j++){
-                                                    switch ($j){
-                                                        case 0: echo '<td class="code">'.$row[$j].'</td>';
-                                                            break;
-                                                        case 1: echo '<td class="prenom"><center>'.$row[$j].'</center></td>';
-                                                            break;
-                                                        case 2: echo '<td class="nom"><center>'.$row[$j].'</center></td>';
-                                                            break;
-                                                        case 3: echo '<td class="titre"><center>'.$row[$j].'</center></td>';
-                                                            break;
-                                                    }    
-                                                }
-                                                echo '</tr>';
-                                            }
+                                            // $liste = 'select RefEmploye as Code, Prenom as Prénom, NomFamille as Nom, Titre FROM employes '
+                                            //         . 'where RefEmploye not like "%E0%" and actif = 0 '
+                                            //         . 'and RefEmploye not in ("Z05", "Z06", "Z07", "ZA1", "ZA2", "ZA3", "ZZZ") '
+                                            //         . 'ORDER BY RefEmploye ASC;';                                                                                
+                                            // $tesita = mysqli_query($connect, $liste) or exit(mysqli_error($connect));
+                                            // $colonne = mysqli_num_fields($tesita); //col        
+                                            // $ligne = mysqli_num_rows($tesita); //rows  
+                                            // while($row = mysqli_fetch_array($tesita, MYSQLI_BOTH)){
+                                            // echo '<tr class="test">';
+                                            //     for($j=0; $j < $colonne ; $j++){
+                                            //         switch ($j){
+                                            //             case 0: echo '<td class="code">'.$row[$j].'</td>';
+                                            //                 break;
+                                            //             case 1: echo '<td class="prenom"><center>'.$row[$j].'</center></td>';
+                                            //                 break;
+                                            //             case 2: echo '<td class="nom"><center>'.$row[$j].'</center></td>';
+                                            //                 break;
+                                            //             case 3: echo '<td class="titre"><center>'.$row[$j].'</center></td>';
+                                            //                 break;
+                                            //         }    
+                                            //     }
+                                            //     echo '</tr>';
+                                            // }
 											// FIN AFFICHAGE DES RESULTATS DE LA LISTE DES CONS. EXTERNES VIA APPEL SQL
                                             ?>
-                                        </table>
+                       <!--                  </table>
                                     </div>
                                 </td>
                             </tr>                                                                                                                                                                                                                                                                
                         </table>
-                    </div> 
+                    </div> --> 
+
+                    <table id="example" class="display" style="width:80%" >
+        <thead>
+            <tr>
+                <th>Code</th>
+                <th>Prénom</th>
+                <th>Nom</th>
+                <th>Département / Fonction</th>
+                <!-- <th>Start date</th>
+                <th>Salary</th> -->
+            </tr>
+        </thead>
+        <tbody>
+
+            <?php 
+                //$req='SELECT RefEmploye as Code, Prenom as Prénom, NomFamille as Nom, Titre FROM employes where RefEmploye like "%E0%" or RefEmploye not like "%E0%" and actif = 0 and RefEmploye not in ("Z05", "Z06", "Z07", "ZA1", "ZA2", "ZA3", "ZZZ", "ITADMIN")';
+                $req = 'select RefEmploye as Code, Prenom as Prénom, NomFamille as Nom, Titre FROM employes '
+                                                    . 'where RefEmploye not like "%E0%" and actif = 0 '
+                                                    . 'and RefEmploye not in ("Z05", "Z06", "Z07", "ZA1", "ZA2", "ZA3", "ZZZ") '
+                                                    . 'ORDER BY RefEmploye ASC;';
+                $resultat = mysqli_query($connect, $req) or exit(mysqli_error($connect));
+                //$row = mysqli_fetch_array($resultat, MYSQLI_BOTH);
+
+                while($row = mysqli_fetch_array($resultat)){
+                    echo '<tr>';
+                    echo '<td align="center"><b>'.$row['Code'].'</b></td>';
+                    echo '<td align="center"><b>'.$row['Prénom'].'</b></td>';
+                    echo '<td align="center"><b>'.$row['Nom'].'</b></td>';
+                    echo '<td align="center"><b>'.$row['Titre'].'</b></td>';
+                    echo '</tr>';
+                }
+
+
+                // echo '<tr>';
+                // foreach($row as $ii)
+                // {
+                //      //echo '<td>'.$ii.'</td>';
+                     
+                // }
+                //     echo '<td>'.$row['Code'].'</td>';
+                //     echo '<td>'.$row['Prénom'].'</td>';
+                //     echo '<td>'.$row['Nom'].'</td>';
+                //     echo '<td>'.$row['Titre'].'</td>';
+
+                 
+                
+            ?>
+            
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Code</th>
+                <th>Prénom</th>
+                <th>Nom</th>
+                <th>Dépt / Fonction</th>
+                <!-- <th>Start date</th>
+                <th>Salary</th>
+            </tr>
+        </tfoot> -->
+    </table>
                                                                                             
                     </center>
                     <!-- bottom -->
@@ -383,7 +447,32 @@
             <p>
                 <span>Vous n’avez pas les autorisations n&eacute;cessaires pour acc&eacute;der &agrave; cette page.</span> Please <a href="../../index.php">login</a>.
             </p>
-        <?php endif; ?>                     	    
+        <?php endif; ?> 
+        <script type="text/javascript">
+                $(document).ready(function() {
+    // Setup - add a text input to each footer cell
+    $('#example tfoot th').each( function () {
+        var title = $(this).text();
+        $(this).html( '<input type="text" placeholder="Rechercher par '+title+'" />' );
+    } );
+ 
+    // DataTable
+    var table = $('#example').DataTable();
+ 
+    // Apply the search
+    table.columns().every( function () {
+        var that = this;
+ 
+        $( 'input', this.footer() ).on( 'keyup change', function () {
+            if ( that.search() !== this.value ) {
+                that
+                    .search( this.value )
+                    .draw();
+            }
+        } );
+    } );
+} );
+            </script>                     	    
     </body>
 </html>
 

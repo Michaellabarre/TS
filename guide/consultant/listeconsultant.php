@@ -412,7 +412,7 @@
               
             </center>
         </div>
-        <table id="example" class="display" style="width:100%">
+        <table id="example" class="display" style="width:80%" >
         <thead>
             <tr>
                 <th>Code</th>
@@ -426,64 +426,46 @@
         <tbody>
 
             <?php 
-                // $req='SELECT RefEmploye as Code, Prenom as Prénom, NomFamille as Nom, Titre FROM employes';
-                // $essai = mysqli_query($connect, $req) or exit(mysqli_error($connect));
-                // $row = mysqli_fetch_array($essai, MYSQLI_BOTH);
+                $req='SELECT RefEmploye as Code, Prenom as Prénom, NomFamille as Nom, Titre FROM employes where RefEmploye like "%E0%" or RefEmploye not like "%E0%" and actif = 0 and RefEmploye not in ("Z05", "Z06", "Z07", "ZA1", "ZA2", "ZA3", "ZZZ", "ITADMIN")';
+                $resultat = mysqli_query($connect, $req) or exit(mysqli_error($connect));
+                //$row = mysqli_fetch_array($resultat, MYSQLI_BOTH);
+
+                while($row = mysqli_fetch_array($resultat)){
+                    echo '<tr>';
+                    echo '<td align="center"><b>'.$row['Code'].'</b></td>';
+                    echo '<td align="center"><b>'.$row['Prénom'].'</b></td>';
+                    echo '<td align="center"><b>'.$row['Nom'].'</b></td>';
+                    echo '<td align="center"><b>'.$row['Titre'].'</b></td>';
+                    echo '</tr>';
+                }
+
+
                 // echo '<tr>';
                 // foreach($row as $ii)
                 // {
-                //      echo '<td>'.$ii->Code.'</td>';
-                //      echo '<td>'.$ii->Prénom.'</td>';
-                //      echo '<td>'.$ii->Nom.'</td>';
-                //      echo '<td>'.$ii->Titre.'</td>';
+                //      //echo '<td>'.$ii.'</td>';
+                     
                 // }
-                // echo '</tr>';
+                //     echo '<td>'.$row['Code'].'</td>';
+                //     echo '<td>'.$row['Prénom'].'</td>';
+                //     echo '<td>'.$row['Nom'].'</td>';
+                //     echo '<td>'.$row['Titre'].'</td>';
 
+                 
+                
             ?>
-            <tr>
-                <td>Tiger Nixon</td>
-                <td>System Architect</td>
-                <td>Edinburgh</td>
-                <td>61</td>
-                <!-- <td>2011/04/25</td>
-                <td>$320,800</td> -->
-            </tr>
             
-            <tr>
-                <td>Shad Decker</td>
-                <td>Regional Director</td>
-                <td>Edinburgh</td>
-                <td>51</td>
-                <!-- <td>2008/11/13</td>
-                <td>$183,000</td> -->
-            </tr>
-            <tr>
-                <td>Michael Bruce</td>
-                <td>Javascript Developer</td>
-                <td>Singapore</td>
-                <td>29</td>
-                <!-- <td>2011/06/27</td>
-                <td>$183,000</td> -->
-            </tr>
-            <tr>
-                <td>Donna Snider</td>
-                <td>Customer Support</td>
-                <td>New York</td>
-                <td>27</td>
-                <!-- <td>2011/01/25</td>
-                <td>$112,000</td> -->
-            </tr>
         </tbody>
         <tfoot>
             <tr>
-                <th>Name</th>
-                <th>Position</th>
-                <th>Office</th>
-                <th>Age</th>
+                <th>Code</th>
+                <th>Prénom</th>
+                <th>Nom</th>
+                <th>Dépt / Fonction</th>
                 <!-- <th>Start date</th>
-                <th>Salary</th> -->
+                <th>Salary</th>
             </tr>
-        </tfoot>
+        </tfoot> -->
     </table>
     </div>  
 
@@ -528,7 +510,7 @@ function myFunction() {
     // Setup - add a text input to each footer cell
     $('#example tfoot th').each( function () {
         var title = $(this).text();
-        $(this).html( '<input type="text" placeholder="Search '+title+'" />' );
+        $(this).html( '<input type="text" placeholder="Rechercher par '+title+'" />' );
     } );
  
     // DataTable

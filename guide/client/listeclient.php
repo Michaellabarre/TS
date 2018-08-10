@@ -42,6 +42,9 @@
         <!-- helper libraries -->
         <script src="../helpers/jquery-1.9.1.min.js" type="text/javascript"></script>
 		
+        <script type="text/javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+        <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script> -->
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
 
         <!-- daypilot libraries -->
         <script src="../js/daypilot-all.min.js?v=1783" type="text/javascript"></script>
@@ -579,15 +582,15 @@ tr.up
 <!--                        <table  > 
                             <tr>
                             </tr>-->
-                            <table border="1" cellspacing="4" cellpadding="0" style=" border-color: #A9E2F3" >
+                            <!-- <table border="1" cellspacing="4" cellpadding="0" style=" border-color: #A9E2F3" >
                             <tr>
-                                <td>
+                                <td> -->
                                     <!--<table cellspacing="0" cellpadding="0" border="1" width="1100px"  id="echeance">-->                                    
                                     <!-- Affichage des données TS sous forme de tableau -->
                                     
                                         
                                     
-									<table cellspacing="0" cellpadding="0" border="1" width="1300px" style=" border-color: none" id="echeance">
+									<!-- <table cellspacing="0" cellpadding="0" border="1" width="1300px" style=" border-color: none" id="echeance"> -->
                                         <!-- <tr>
                                             <td style="width:145px"><b><center>Société</center></b></td>
                                             <td style="width:74px"><b><center>Code</center></b></td>
@@ -598,7 +601,7 @@ tr.up
                                             <td style="width:232px"><center><b>Email</b></center></td> -->
                                             <!--<td class="site"><center><b>Site Web</b></center></td>-->
                                         <!-- </tr> -->
-                                        <div class="progress-container">
+                                        <!-- <div class="progress-container">
                                             <div class="progress-bar" id="myBar"></div>
                                         </div>
                                         <tr class="up">
@@ -609,7 +612,7 @@ tr.up
                                             <th style="width:88px">Téléphone</th>
                                             <th style="width:121px">Mobile</th>
                                             <th style="width:232px">Email</th>
-                                         </tr>
+                                         </tr> -->
                                         <!-- <thead>
                                              <tr>
                                                 <th>Month</th>
@@ -621,57 +624,116 @@ tr.up
                                                 <th>Savings</th>
                                             </tr>
                                         </thead> -->
-                                    </table>
+                                     <!-- </table>
                                    
                                 </td>
                             </tr>
                             <tr>
-                                <td>
-                                    <!--<div style="width:1120px; height:454px; overflow:auto;">-->
-                                    <div style="width:1319px; height:446px; overflow:auto;">
-                                    <table cellspacing="0" cellpadding="0" border="1" width="1300px" style=" border-color: none" id="echeance">
+                                <td> -->
+                                    <!--<div style="width:1120px; height:454px; overflow:auto;">
+                                    <div style="width:1319px; height:446px; overflow:auto;"> -->
+                                    <!-- <table cellspacing="0" cellpadding="0" border="1" width="1300px" style=" border-color: none" id="echeance"> -->
                                         <!--<table cellspacing="0" cellpadding="0" border="0" width="1100px" id="echeance">--> 
                                             <?php
-                                            while($row = mysqli_fetch_array($tesita, MYSQLI_BOTH)){
-                                                echo '<tr class="test">';
-                                                    for($j=0; $j < $colonne ; $j++){
-                                                        switch ($j){
-                                                            case 0: echo '<td style="max-width:145px;word-wrap: break-word"><b><center>'.$row[$j].'</center></b></td>';
-                                                                break;
-                                                            case 1: echo '<td style="max-width:74px;word-wrap: break-word"><b><center>'.$row[$j].'</center></b></td>';
-                                                                break;                                                                
-                                                            case 2: echo '<td style="max-width:230px;word-wrap: break-word"><b><center>'.$row[$j].'</center></b></td>';
-                                                                break;
-                                                            case 3: echo '<td style="max-width:195px;word-wrap: break-word"><b><center>'.$row[$j].'</center></b></td>';
-                                                                break;
-                                                            case 4: echo '<td style="max-width:88px;word-wrap: break-word"><b><center>'.$row[$j].'</center></b></td>';
-                                                                break;
-                                                            case 5: echo '<td style="max-width:121px;word-wrap: break-word"><b><center>'.$row[$j].'</center></b></td>';
-                                                                break;
-                                                            case 6: echo '<td style="max-width:232px;word-wrap: break-word"><b><center>'.$row[$j].'</center></b></td>';
-                                                                break;
+                                            // while($row = mysqli_fetch_array($tesita, MYSQLI_BOTH)){
+                                            //     echo '<tr class="test">';
+                                            //         for($j=0; $j < $colonne ; $j++){
+                                            //             switch ($j){
+                                            //                 case 0: echo '<td style="max-width:145px;word-wrap: break-word"><b><center>'.$row[$j].'</center></b></td>';
+                                            //                     break;
+                                            //                 case 1: echo '<td style="max-width:74px;word-wrap: break-word"><b><center>'.$row[$j].'</center></b></td>';
+                                            //                     break;                                                                
+                                            //                 case 2: echo '<td style="max-width:230px;word-wrap: break-word"><b><center>'.$row[$j].'</center></b></td>';
+                                            //                     break;
+                                            //                 case 3: echo '<td style="max-width:195px;word-wrap: break-word"><b><center>'.$row[$j].'</center></b></td>';
+                                            //                     break;
+                                            //                 case 4: echo '<td style="max-width:88px;word-wrap: break-word"><b><center>'.$row[$j].'</center></b></td>';
+                                            //                     break;
+                                            //                 case 5: echo '<td style="max-width:121px;word-wrap: break-word"><b><center>'.$row[$j].'</center></b></td>';
+                                            //                     break;
+                                            //                 case 6: echo '<td style="max-width:232px;word-wrap: break-word"><b><center>'.$row[$j].'</center></b></td>';
+                                            //                     break;
 //                                                            case 7: echo '<td class="site">'.$row[$j].'</td>';
 //                                                                break;
-                                                        }
-                                                    }
-                                                echo '</tr>';
-                                                }
+                                                        // }
+                                                    // }
+                                                // echo '</tr>';
+                                                // }
                                             ?>
 
-                                            <?php
-                                                foreach ($data as $key => $value) {
-                                                    # code...
-                                                }
-                                            ?>
-                                        </table>
-                                    </div>
+                                        <!-- </table> -->
+                                    <!-- </div> -->
 									 <!-- FIN Affichage des données TS sous forme de tableau -->
-                                </td>
-                            </tr>                                                                                                                                                                                                                                                                
-                        </table>
-                    </div>                                                                                                                                                                                                                                                                      
+                                <!-- </td> -->
+                            <!-- </tr>                                                                                                                                                                                                                                                                 -->
+                        <!-- </table> -->
+                    <!-- </div>                                                                                                                                                                                                                                                                       -->
                     <!--</div>-->               
                     <!-- bottom -->
+                            <table id="example" class="display" style="width:100%" >
+        <thead>
+            <tr>
+                <th>Société</th>
+                <th width="74px">Code</th>
+                <th>Adresse</th>
+                <th>Contact</th>
+                <th>Téléphone</th>
+                <th>Mobile</th>
+                <th>Email</th>
+                <!-- <th>Start date</th>
+                <th>Salary</th> -->
+            </tr>
+        </thead>
+        <tbody>
+
+            <?php 
+                $req='SELECT NomSociete, RefClient as "Code", Adresse, NomContact as Contact, NumeroTel as "Téléphone", NumMobile as Mobile, Mail FROM client ORDER BY NomSociete ASC;';
+                $resultat = mysqli_query($connect, $req) or exit(mysqli_error($connect));
+                //$row = mysqli_fetch_array($resultat, MYSQLI_BOTH);
+
+                while($row = mysqli_fetch_array($resultat)){
+                    echo '<tr>';
+                    echo '<td align="center"><b>'.$row['NomSociete'].'</b></td>';
+                    echo '<td align="center" width="74px"><b>'.$row['Code'].'</b></td>';
+                    echo '<td align="center"><b>'.$row['Adresse'].'</b></td>';
+                    echo '<td align="center"><b>'.$row['Contact'].'</b></td>';
+                    echo '<td align="center"><b>'.$row['Téléphone'].'</b></td>';
+                    echo '<td align="center"><b>'.$row['Mobile'].'</b></td>';
+                    echo '<td align="center"><b>'.$row['Mail'].'</b></td>';
+                    echo '</tr>';
+                }
+
+
+                // echo '<tr>';
+                // foreach($row as $ii)
+                // {
+                //      //echo '<td>'.$ii.'</td>';
+                     
+                // }
+                //     echo '<td>'.$row['Code'].'</td>';
+                //     echo '<td>'.$row['Prénom'].'</td>';
+                //     echo '<td>'.$row['Nom'].'</td>';
+                //     echo '<td>'.$row['Titre'].'</td>';
+
+                 
+                
+            ?>
+            
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Société</th>
+                <th>Code</th>
+                <th>Adresse</th>
+                <th>Contact</th>
+                <th>Téléphone</th>
+                <th>Mobile</th>
+                <th>Email</th>
+                <!-- <th>Start date</th>
+                <th>Salary</th>
+            </tr>
+        </tfoot> -->
+    </table>
                     </center>
                 
             </div>                        
@@ -693,6 +755,31 @@ function myFunction() {
   document.getElementById("myBar").style.width = scrolled + "%";
 }
 </script>
+<script type="text/javascript">
+                $(document).ready(function() {
+    // Setup - add a text input to each footer cell
+    $('#example tfoot th').each( function () {
+        var title = $(this).text();
+        $(this).html( '<input type="text" placeholder="Rechercher par '+title+'" />' );
+    } );
+ 
+    // DataTable
+    var table = $('#example').DataTable();
+ 
+    // Apply the search
+    table.columns().every( function () {
+        var that = this;
+ 
+        $( 'input', this.footer() ).on( 'keyup change', function () {
+            if ( that.search() !== this.value ) {
+                that
+                    .search( this.value )
+                    .draw();
+            }
+        } );
+    } );
+} );
+            </script>  
 <!--    <script type="text/javascript">
         $(document).ready(function() {
           var url = window.location.href;
