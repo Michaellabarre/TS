@@ -1204,7 +1204,7 @@ $(function() {
                                                                                                     <option>Saisir Manuellement</option>
                                                                                                 </optgroup>
                                                                                                 <optgroup label="Choisir dans la liste déroulante">';
-                                                                                                    $reqLigneRHC = "select concat(CodeL, ' - ', DescL) as criptdesc from lignerhc order by CodeL;";
+                                                                                                    $reqLigneRHC = "select concat(CodeL, ' - ', GroupL, ' - ',DescL) as criptdesc from lignerhc order by CodeL;";
                                                                                                     $resLigneRHC = mysqli_query($connect, $reqLigneRHC);
                                                                                                     while($rowRHC = mysqli_fetch_array($resLigneRHC, MYSQLI_BOTH)){
                                                                                                         echo '<option value="'.$rowRHC[0].'">'.$rowRHC[0].'</option>';

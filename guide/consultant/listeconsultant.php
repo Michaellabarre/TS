@@ -31,8 +31,11 @@
         <script src="../helpers/jquery-1.9.1.min.js" type="text/javascript"></script>   
 		<link   type="text/css" rel="stylesheet" href="../helpers/media/style.css?v=1783"/>
 
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
         <script type="text/javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
-        <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script> -->
+
+        
         <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
         <style type="text/css">
   a.button{
@@ -515,6 +518,7 @@ function myFunction() {
  
     // DataTable
     var table = $('#example').DataTable();
+    
  
     // Apply the search
     table.columns().every( function () {

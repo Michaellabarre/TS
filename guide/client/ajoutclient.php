@@ -19,6 +19,7 @@
     <head>
         <title>Ajout Nouveau Client</title>
         <link rel="shortcut icon" href="../../logo/fthm.ico" type="image/x-icon" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
             <!-- head -->
         <!-- <meta charset="utf-8"> -->
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -459,9 +460,9 @@
             
                 <div>
                     <!-- /top -->
-                    <div class="note" id="note"><center><b><font color="red">Notes:</font></b>                        
+                    <div class="note" id="note"><center><b><font color="red" style="text-transform: uppercase;"><i class="fas fa-exclamation-triangle"></i>Notes:</font></b>                        
                         <br/>&emsp; Les champs grisés sont obligatoires                                               
-                        <br/>&emsp; Le code Client doit contenir 3 à 6 caractères et ne doit être composé que des lettres uniquement.
+                        <br/>&emsp; Le code Client doit contenir <b><font color="red">3 à 6 caractères</font></b> et ne doit être composé que des <b><font color="red">lettres uniquement.</font></b>
                         <br/>&emsp; Les champs « STAT, NIF, CIF et RCS » sont à remplir dans le cas où le type du Client est « Privé »
                         </center>
                     </div>
@@ -773,7 +774,7 @@
                             <?php
 //                        echo '<br/><font size="0.5em">Erreur: '.mysqli_error($connect).'</font>';
                         // echo '<br/><font color="red"; size="4px"><center><img src="../../images/Warning.gif"/> Désolé, le code Client existe déjà!!!</center></font>';
-                            echo '<br/><font color="red"; size="4px"><center><img src="../../images/Warning.gif"/>Oups!!! Veuillez vérifier les informations que vous avez entré car il y a une erreur!</center></font>';
+                            echo '<br/><font color="red"; size="4px"><center><img src="../../images/Warningalert.png"/>Oups!!! Veuillez vérifier les informations que vous avez entré car il y a une erreur!</center></font>';
                         echo '</b></p></div>';            
                         $mysqli->query("ROLLBACK");exit(1);
                         exit(mysqli_error($connect));
