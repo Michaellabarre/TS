@@ -25,7 +25,7 @@
         <link type="text/css" rel="stylesheet" href="../helpers/demo.css?v=1783" />
         <link type="text/css" rel="stylesheet" href="../helpers/media/layout.css?v=1783" />
         <link type="text/css" rel="stylesheet" href="../helpers/media/elements.css?v=1783" />
-        <link type="text/css" rel="stylesheet" href="../../includes/db_connect.php"
+        <link type="text/css" rel="stylesheet" href="../../includes/db_connect.php">
 
         <!-- helper libraries -->
         <script src="../helpers/jquery-1.9.1.min.js" type="text/javascript"></script>   
@@ -420,6 +420,8 @@
               
             </center>
         </div>
+        <fieldset>
+        <legend><font style=" color: black"><b><center>Liste de tous les consultants</center></b></font></legend>
         <table id="example" class="draggable" style="width:80%" >
         <thead>
             <tr>
@@ -474,7 +476,10 @@
                 <th>Salary</th>
             </tr>
         </tfoot> -->
+    </tr>
+</tfoot>
     </table>
+</fieldset>
     </div>  
 
 <!--    <script type="text/javascript">
