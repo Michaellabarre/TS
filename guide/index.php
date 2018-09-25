@@ -30,7 +30,6 @@
 		 <link   type="text/css" rel="stylesheet" href="helpers/media/style.css?v=1783"/>
          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 
-
         <style>
 		a.button{
 			background:blue url(images/button.gif);
@@ -154,7 +153,7 @@
                 <div class="	">
                     <center>
                         <!-- $refEmploye affiche le matricule -->
-                     <MARQUEE scrolldelay="150"><h1 id="logo"><?php echo '<b><i>'.$prenom.' '.$nom.'</i></b>'; ?></h1></MARQUEE> 
+                     <MARQUEE scrolldelay="150" behavior='alternate'><h1 id="logo"><?php echo '<b><i>'.$prenom.' '.$nom.'</i></b>'; ?></h1></MARQUEE> 
                     <hr class="hidden" />
                     </center>
                 </div>

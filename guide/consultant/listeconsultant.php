@@ -43,128 +43,130 @@
         
         <!-- <link rel="stylesheet" type="text/css" href="DataTables/DataTables/css/jquery.dataTables.min.css"> -->
         <style type="text/css">
-  a.button{
-			background: blue url(../images/button.gif);
-			border-radius: 2em;
-			-moz-border-radius: 2em;
-			 float: right;   
-			display:block;
-			color:#555555;
-			font-weight:bold;
-			height:30px;
-			line-height:29px;
-			text-decoration:none;
-			width:115px;
-			
-		}
-		a:hover.button{
-			color:#0066CC;
-		}
-		
-		.delete{
-		background:url(../images/deconnexion.png) no-repeat 10px 8px;
-		text-indent:30px;
-		display:block;
-		}		
-            .menu:after{
-                content: "";
-                display: block;
-                clear  : both;
-            }
-            .menu div:first-child{
-                border-top-left-radius: 8px;
-                border-bottom-left-radius: 8px;
-            }
-            .menu div:last-child{
-                border-top-right-radius: 8px;
-                border-bottom-right-radius: 8px; 
-            }
-            .menu div{
-                position: relative;
-                float: left;
-                padding: 8px;
-                background-color: #bbbbbb;
-                background: linear-gradient(to bottom, #dddddd, #bbbbbb);
-            }
-            .menu div ul{
-                position: absolute;
-                left: 0;
-                /*display: none;*/
-                
-                height: 0;
-                padding: 0px;
-                overflow: hidden;
-                transition: height 0.5s;
-                
-                z-index: 7;
-                margin-left: 0;
-                background-color: #cccccc;
-            }
-            .menu div:hover ul{
-                /*display: block;*/
-                height: 155px;                                
-            }
-            .menu li{
-                list-style: none;
-                margin: 0 8px 0 8px;
-            }
-            .menu li:first-child{
-                margin-top: 8px;
-            }
-            .menu li:last-child{
-                margin-bottom: 8px;
-            }
-            
-            
-            
-            table{
-                border-collapse: collapse;
-                
-            }
-            td{
-                border: 1px solid black;
-                border-style: dotted;
-                border-color: #1c4e63;
-            }
-             .code{
-                width: 49px;
-                text-align: center;
-            }
-            .prenom{
-                width: 200px;
-                text-align: left;
-            }
-            .nom{
-                width: 325px;
-                text-align: left;
-            }
-            .titre{
-                /*width: 209px;*/
-                text-align: left;
-            }
-            #echeance {
-                /*border: none;*/                
-                /*border-style: none;*/
-            }
-            tr.test:hover {background-color: #19a3ff;}
-            /*tr.test:nth-child(odd) {background-color: #bed4f7;}*/
-            /*tr.test:nth(even) {background-color: #ffffff;}*/
+                a.button{
+        			background: blue url(../images/button.gif);
+        			border-radius: 2em;
+        			-moz-border-radius: 2em;
+        			 float: right;   
+        			display:block;
+        			color:#555555;
+        			font-weight:bold;
+        			height:30px;
+        			line-height:29px;
+        			text-decoration:none;
+        			width:115px;
+        			
+        		}
+        		a:hover.button{
+        			color:#0066CC;
+        		}
+        		
+        		.delete{
+        		background:url(../images/deconnexion.png) no-repeat 10px 8px;
+        		text-indent:30px;
+        		display:block;
+        		}		
+                    .menu:after{
+                        content: "";
+                        display: block;
+                        clear  : both;
+                    }
+                    .menu div:first-child{
+                        border-top-left-radius: 8px;
+                        border-bottom-left-radius: 8px;
+                    }
+                    .menu div:last-child{
+                        border-top-right-radius: 8px;
+                        border-bottom-right-radius: 8px; 
+                    }
+                    .menu div{
+                        position: relative;
+                        float: left;
+                        padding: 8px;
+                        background-color: #bbbbbb;
+                        background: linear-gradient(to bottom, #dddddd, #bbbbbb);
+                    }
+                    .menu div ul{
+                        position: absolute;
+                        left: 0;
+                        /*display: none;*/
+                        
+                        height: 0;
+                        padding: 0px;
+                        overflow: hidden;
+                        transition: height 0.5s;
+                        
+                        z-index: 7;
+                        margin-left: 0;
+                        background-color: #cccccc;
+                    }
+                    .menu div:hover ul{
+                        /*display: block;*/
+                        height: 155px;                                
+                    }
+                    .menu li{
+                        list-style: none;
+                        margin: 0 8px 0 8px;
+                    }
+                    .menu li:first-child{
+                        margin-top: 8px;
+                    }
+                    .menu li:last-child{
+                        margin-bottom: 8px;
+                    }
+                    
+                    
+                    
+                    table{
+                        border-collapse: collapse;
+                        
+                    }
+                    td{
+                        border: 1px solid black;
+                        border-style: dotted;
+                        border-color: #1c4e63;
+                    }
+                     .code{
+                        width: 49px;
+                        text-align: center;
+                    }
+                    .prenom{
+                        width: 200px;
+                        text-align: left;
+                    }
+                    .nom{
+                        width: 325px;
+                        text-align: left;
+                    }
+                    .titre{
+                        /*width: 209px;*/
+                        text-align: left;
+                    }
+                    #echeance {
+                        /*border: none;*/                
+                        /*border-style: none;*/
+                    }
+                    tr.test:hover {background-color: #19a3ff;}
+                    /*tr.test:nth-child(odd) {background-color: #bed4f7;}*/
+                    /*tr.test:nth(even) {background-color: #ffffff;}*/
 
-            /* Cells in even rows (2,4,6...) are one color */        
-            /*tr.test:nth-child(even) td { background: #F1F1F1; } */
-            tr.test:nth-child(even) td { background: #D0E4F5; }
-            /* Cells in odd rows (1,3,5...) are another (excludes header cells)  */        
-            tr.test:nth-child(odd) td { background: #FEFEFE; } 
+                    /* Cells in even rows (2,4,6...) are one color */        
+                    /*tr.test:nth-child(even) td { background: #F1F1F1; } */
+                    tr.test:nth-child(even) td { background: #D0E4F5; }
+                    /* Cells in odd rows (1,3,5...) are another (excludes header cells)  */        
+                    tr.test:nth-child(odd) td { background: #FEFEFE; } 
 
-            #myInput {
-  background-image: url('TS/images/search-icon-png-8.png');
-  background-position: 10px 10px;
-  background-repeat: no-repeat;
-  width: 100%;
-  font-size: 16px;
-  padding: 12px 20px 12px 40px;
-  border: 1px solid #ddd;
-  margin-bottom: 12px;
+                    #myInput 
+                    {
+                      background-image: url('TS/images/search-icon-png-8.png');
+                      background-position: 10px 10px;
+                      background-repeat: no-repeat;
+                      width: 100%;
+                      font-size: 16px;
+                      padding: 12px 20px 12px 40px;
+                      border: 1px solid #ddd;
+                      margin-bottom: 12px;
+                    }
         </style>
 	<!-- /head -->
     </head>
@@ -421,8 +423,10 @@
             </center>
         </div>
         <fieldset>
-        <legend><font style=" color: black"><b><center>Liste de tous les consultants</center></b></font></legend>
-        <table id="example" class="draggable" style="width:80%" >
+        <legend><font style=" color: black;"><b><center><i>Liste de tous les consultants</i></center></b></font></legend>
+        <table id="example" style="width:80%" >
+
+            <!-- <table id="example" class="draggable" style="width:80%" > -->
         <thead>
             <tr>
                 <th>Code</th>
@@ -527,6 +531,13 @@ function myFunction() {
     } );
  
     // DataTable
+    // var table = $('#example').DataTable({
+    //     "language": {
+    //         "url": "//cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/French.json"
+    //     }
+    // });
+    // 
+    // Avec langue française
     var table = $('#example').DataTable();
     
  
