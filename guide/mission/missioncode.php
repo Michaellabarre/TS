@@ -448,7 +448,7 @@ $(function() {
                     <!-- /tabs --> 
                 <?php
             }     
-            else if($prof == 'Consultant' or $prof == 'Consultante' or $prof == 'Collaborateur' or $prof == 'Superviseur' or $prof == 'Collaboratrice'){
+            else if($prof == 'Consultant' or $prof == 'Consultante' or $prof == 'Collaborateur' or $prof == 'Superviseur' or $prof == 'Collaboratrice' or $prof == 'Stagiaire'){
                 ?>
                 <!-- tabs -->
 				
